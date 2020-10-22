@@ -4,6 +4,7 @@ title: "Hello World!"
 subtitle: "We are happy to launch the website..."
 author: "Subhalingam D"
 header-style: text
+date: 2020-10-22 21:30:00 +0530
 mathjax: true
 tags:
   - launch
