@@ -1,4 +1,5 @@
 ---
+title: Blog
 layout: page
 description: "What have we got to say??"
 ---
@@ -22,8 +23,8 @@ description: "What have we got to say??"
             {% endif %}
         </div>
     </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    <p class="post-meta" style="font-size:0.75em;">
+        {{ post.date | date: "%b %-d, %Y" }} • {% if post.author %}Posted by {{ post.author }}{% endif %}
     </p>
 </div>
 <hr>
