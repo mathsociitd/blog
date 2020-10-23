@@ -7,7 +7,8 @@ header-style: text
 date: 2020-10-23 00:20:00 +0530
 hidden: true
 plchart: true
-tags:
+categories:
+  - hidden
 ---
 
 <iframe 
