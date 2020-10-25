@@ -7,6 +7,7 @@ description: "Blog for Mathematics Society, IIT Delhi"
 keyword: "mathsociitd, mathsoc-blog"
 url: "https://mathsociitd.github.io"              # your host, for absolute URL
 baseurl: "/blog"                             # for example, '/blog' if your blog hosted on 'host/blog'
+parenturl: "http://mathsoc.iitd.ac.in"
 
 # Publish posts or collection documents with a future date.
 future: true
