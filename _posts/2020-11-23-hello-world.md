@@ -2,7 +2,7 @@
 layout: post
 title: "Hello World!"
 subtitle: "Welcome to the first ever blog on a website dedicated to a society of Mathematics students in a Technology institute."
-author: "[Khushi Pathak](example.com)"
+author: "<a href="example.com">Khushi Pathak</a>"
 header-img: "img/post/2020-11-23-hello-world-header.jpg"
 date: 2020-11-23 16:00:00 +0530
 mathjax: true
