@@ -56,7 +56,7 @@ Following this to get an opportunity students would have to submit a prototype o
 
 
 ## Panelists
-![Error Loading Panelists](2020-11-23-intern-and-sura-ke-fundae-panelists.png)
+![Error Loading Panelists](img/post/2020-11-23-intern-and-sura-ke-fundae-panelists.png)
 
 
 
