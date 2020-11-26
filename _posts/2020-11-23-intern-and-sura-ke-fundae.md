@@ -12,10 +12,10 @@ tags:
 ---
 
 The entire session can be divided into the following categories based on the topics discussed:
-* Industrial Internship
-* Research Internship
-	- Foreign Internship
-	- SURA *(IITD version of Research Internship)*
+* [Industrial Internship](#industrial-internship)
+* [Research Internship](#research-internship)
+	- [Foreign Internship](#foreign-internship)
+	- [SURA](#sura) *(IITD version of Research Internship)*
 
 
 ## Industrial Internship
@@ -55,7 +55,8 @@ Following this to get an opportunity students would have to submit a prototype o
 
 
 
-
+## Panelists
+![Error Loading Panelists](2020-11-23-intern-and-sura-ke-fundae-panelists.png)
 
 
 
