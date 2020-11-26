@@ -10,7 +10,7 @@ tags:
   - event-summary
   - fundae
 ---
-
+<!-- Change the file name--->
 The entire session can be divided into the following categories based on the topics discussed:
 * [Industrial Internship](#industrial-internship)
 * [Research Internship](#research-internship)
@@ -56,7 +56,7 @@ Following this to get an opportunity students would have to submit a prototype o
 
 
 ## Panelists
-![Error Loading Panelists](img/post/2020-11-23-intern-and-sura-ke-fundae-panelists.png)
+![Error Loading Panelists]({{ site.baseurl }}/img/post/2020-11-23-intern-and-sura-ke-fundae-panelists.png)
 
 
 
