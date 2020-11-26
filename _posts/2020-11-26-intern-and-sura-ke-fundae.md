@@ -15,7 +15,7 @@ The entire session can be divided into the following categories based on the top
 * [Industrial Internship](#industrial-internship)
 * [Research Internship](#research-internship)
 	- [Foreign Internship](#foreign-internship)
-	- [SURA](#sura) *(IITD version of Research Internship)*
+	- [SURA](#sura-internship) *(IITD version of Research Internship)*
 
 
 ## Industrial Internship
@@ -56,7 +56,7 @@ Following this to get an opportunity students would have to submit a prototype o
 
 
 ## Panelists
-![Error Loading Panelists]({{ site.baseurl }}/img/post/2020-11-23-intern-and-sura-ke-fundae-panelists.png)
+![Error Loading Panelists]({{ site.baseurl }}/img/post/2020-11-26-intern-and-sura-ke-fundae-panelists.png)
 
 
 
