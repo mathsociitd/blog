@@ -2,7 +2,7 @@
 title: "Higher Education ke Fundae"
 subtitle: "A summary of the event <i>Higher Education ke Fundae</i> which was organized on Dec 06"
 layout: post
-author: "Anknon Bhattacharya & Prasoon Bajpai"
+author: "Ankon Bhattacharya & Prasoon Bajpai"
 header-style: text
 date: 2020-12-26 18:50:18 +530
 plchart: true
