@@ -7,8 +7,8 @@ header-style: text
 date: 2020-12-26 18:50:18 +530
 plchart: true
 tags:
-	- event-summary
-	- fundae
+  - event-summary
+  - fundae
 ---
 
 Higher Education is sought by a considerable fraction of students, the reason for which is self-apparent. The opportunity to learn and excel in a highly condensed field of interest is not awarded to everyone. Therefore, the process of application should not be taken lightly and must be given required occupation.
