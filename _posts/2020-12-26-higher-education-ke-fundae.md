@@ -17,7 +17,7 @@ The applicant must have a good level of interest in the field in which he wants 
 
 - From the perspective of major proportion of undergraduates, who want to secure a prestigious job in a highly specific field, it is advisable that they choose an institution that has a well - developed framework in terms of training for that field. It may happen that the institution is not well-known for other fields and thus not be a popular choice among general applicants. Therefore, it is indispensable to be really selective about institution.
 
-- There are several online resources and forums where students may refer to get information about potential programs, requirements, potential for career/research after completion, and may get in touch with other applicants or alumni. Examples of such forums include [r/gradadmissions](reddit.com/r/gradadmissions), [GradCafe](thegradcafe.com), and [Quantnet](quantnet.com).
+- There are several online resources and forums where students may refer to get information about potential programs, requirements, potential for career/research after completion, and may get in touch with other applicants or alumni. Examples of such forums include [r/gradadmissions](https://www.reddit.com/r/gradadmissions/), [GradCafe](https://www.thegradcafe.com), and [Quantnet](https://quantnet.com/).
 
 Some key points to take care are:
 
