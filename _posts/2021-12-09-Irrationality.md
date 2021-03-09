@@ -1,3 +1,16 @@
+---
+title: "Irrationality"
+subtitle: "edit"
+layout: post
+author: "Aripra Kar and Shammi Malhotra"
+header-style: text
+date: 2021-3-09 23:17:34 +0530
+plchart: true
+tags:
+  - post
+  - irrationality
+---
+
 # How to prove irrationality of n<sup>th</sup> root of any number:
 
 *BONUS: From over-killing with Fermat’s Last Theorem to ending up in bogus proof.*
