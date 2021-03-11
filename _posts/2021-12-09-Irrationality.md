@@ -6,6 +6,7 @@ author: "Aripra Kar and Shammi Malhotra"
 header-style: text
 date: 2021-3-09 23:17:34 +0530
 plchart: true
+mathjax: true
 tags:
   - post
   - irrationality
@@ -22,7 +23,7 @@ Similarly, we can talk about the n<sup>th</sup>root of an integer and the same a
 
 For the sake of convenience, let us evaluate our statement taking ‘2’ as our integer, which can then be generalized to any other positive number.  
 
-### *&quot;Prove that $\sqrt[n]2$ is irrational for all n>= 2, n bl N&quot;* 
+### *&quot;Prove that $$\sqrt[n]2$$ is irrational for all n>= 2, n bl N&quot;* 
 
 To answer the above problem, let us take the simple case of n=2 first. It can be proved that √2 is irrational, either by contradiction or by unique factorization. 
 
@@ -77,7 +78,7 @@ We could either use *Euclid*’s arguments or invoke the rational root the
 
 One way to prove it is to use exactly the same idea as for proving the square root of 2 is irrational: Suppose $$\sqrt[n]2= \frac{p}{q}$$ , with p and q integers, relatively prime. Then  *p<sup>n</sup>=2q<sup>n</sup>* . Now think about the prime factorizations: every prime that divides q must divide p, but p and q are relatively prime, so q=1. That means that we must have p<sup>n</sup>=2 with p an integer. That is, the only way for the n<sup>th</sup> root of 2 to be a rational is if 2 is an n<sup>th</sup> power of an integer, which is not true. So, $$\sqrt[n]2$$ is irrational.  
 
-Alternatively, we can use the *Rational Root Test*: An n<sup>th</sup> root of 2 is a root of the polynomial x<sup>n</sup>-2. But a rational root of a polynomial with integer coefficients that is written in lowest term $\frac{p}{q}$ must have denominator q that divides the leading coefficient and numerator p that divides the constant coefficient. So, any rational root of  
+Alternatively, we can use the *Rational Root Test*: An n<sup>th</sup> root of 2 is a root of the polynomial x<sup>n</sup>-2. But a rational root of a polynomial with integer coefficients that is written in lowest term $$\frac{p}{q}$$ must have denominator q that divides the leading coefficient and numerator p that divides the constant coefficient. So, any rational root of  
 x<sup>n</sup>-2 must be an integer. 
 
  
