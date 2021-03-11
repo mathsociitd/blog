@@ -23,7 +23,7 @@ Similarly, we can talk about the n<sup>th</sup>root of an integer and the same a
 
 For the sake of convenience, let us evaluate our statement taking ‘2’ as our integer, which can then be generalized to any other positive number.  
 
-### *&quot;Prove that $$\sqrt[n]2$$ is irrational for all n>= 2, n bl N&quot;* 
+### *&quot;Prove that $$\sqrt[n]2$$ is irrational for all n$$\geqslant$$ 2, n $$\in$$ N&quot;* 
 
 To answer the above problem, let us take the simple case of n=2 first. It can be proved that √2 is irrational, either by contradiction or by unique factorization. 
 
@@ -89,7 +89,7 @@ The above arguments can be extended to any integer *k*.  In fact, for every in
 
 ## Bonus Section: 
 
-So as promised in this section we will see how Fermat’s Last Theorem (FLT) was used to paradoxically prove the irrationality of $$\sqrt[n]2$$ for n>=3. 
+So as promised in this section we will see how Fermat’s Last Theorem (FLT) was used to paradoxically prove the irrationality of $$\sqrt[n]2$$ for n$$\geqslant$$3. 
 
 First of all, let us recall Fermat’s Last Theorem: 
 
@@ -101,7 +101,7 @@ Then we have *p<sup>n</sup>*/*q<sup>n</sup>*=2. Since q≠0, this would im
 
 But, by Fermat's last theorem, the equation *p<sup>n</sup>*=*q<sup>n</sup> + q<sup>n</sup>* cannot hold for any positive integers as n>2. 
 
-This is a contradiction. Thus, we cannot have $$\sqrt[n]2$$ as a rational number if nblN (>2). 
+This is a contradiction. Thus, we cannot have $$\sqrt[n]2$$ as a rational number if n $$\in$$ N (>2). 
 
 Therefore, $$\sqrt[n]2$$ is an irrational number. 
 
