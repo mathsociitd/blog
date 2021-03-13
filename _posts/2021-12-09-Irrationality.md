@@ -13,6 +13,9 @@ tags:
 ---
 
 
+<video width="100%" controls>
+<source src="{{ site.baseurl }}/media/irrationality1.mp4" type="video/mp4">
+</video>
 
 ## Introduction
 
