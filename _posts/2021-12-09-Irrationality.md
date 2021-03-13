@@ -31,7 +31,7 @@ To answer the above problem, let us take the simple case of n=2 first. It can be
 
 #### The proof by contradiction goes as follows:
 
-<div style="background-color:#f1f1f1;margin: 0 3px;padding:6px;">
+<div style="background-color:#f1f1f1;margin: 0 3px;padding:6px 10px;">
 Assume that $\sqrt 2$ is a rational number. So, it can be expressed in the form $p/q$ where $p, q$ are co-prime integers and $q \ne 0$. <br />
 
 So, $\sqrt 2 = p/q$  &nbsp; &nbsp;[Here $p$ and $q$ are coprime numbers and $q \ne 0$] <br />
@@ -105,17 +105,19 @@ First of all, let us recall Fermat’s Last Theorem:
 
 > In [_number theory_](https://en.wikipedia.org/wiki/Number_theory),  **_Fermat's Last Theorem_** (sometimes called  _**Fermat's conjecture**_, especially in older texts) states that no three  [_positive integers_](https://en.wikipedia.org/wiki/Integer)  $a$, $b$, and $c$ satisfy the equation  $a^n + b^n = c^n$  for any integer value of $n>2$. The cases $n = 1$ and $n = 2$ have been known since antiquity to have infinitely many solutions.
 
-Suppose for sake of contradiction, assume that $\sqrt[n]2$ is not irrational. Then $\sqrt[n]2$ is a rational number. Since $\sqrt[n]2$ is positive by definition, there exists positive integers p and q (if both were negative, we could multiply both the numerator and denominator by −1) such that $\sqrt[n]2$=p/q. 
+<div style="background-color:#f1f1f1;margin: 0 3px;padding:6px 10px;">
 
-Then we have $\big(\frac{p}{q}\big)^n=2$. Since $q\ne0$, this would imply $p^n=2q^n$. Therefore, we have  $p^n=q^n + q^n$. 
+Suppose for sake of contradiction, assume that $\sqrt[n]2$ is not irrational. Then $\sqrt[n]2$ is a rational number. Since $\sqrt[n]2$ is positive by definition, there exists positive integers $p$ and $q$ (if both were negative, we could multiply both the numerator and denominator by $−1$) such that $\sqrt[n]2=p/q$. <br />
 
-But, by Fermat's last theorem, the equation $p^n=q^n + q^n$ cannot hold for any positive integers as $n>2$. 
+Then we have $\big(\frac{p}{q}\big)^n=2$. Since $q\ne0$, this would imply $p^n=2q^n$. Therefore, we have $p^n=q^n + q^n$.<br />
 
-This is a contradiction. Thus, we cannot have $\sqrt[n]2$ as a rational number if $n \in \mathbb{N} (>2)$. 
+But, by Fermat's last theorem, the equation $p^n=q^n + q^n$ cannot hold for any positive integers as $n>2$.<br />
 
-Therefore, **$\sqrt[n]2$ is an irrational number.**
+This is a contradiction. Thus, we cannot have $\sqrt[n]2$ as a rational number if $n \in \mathbb{N} (>2)$. <br />
 
- 
+Therefore, <b>$\sqrt[n]2$ is an irrational number</b>.
+
+</div>
 
 Unfortunately, it turns out that this argument is circular as some step of the proof of FLT in turn requires the Euclid’s Style proof that  $\sqrt[n]2$ is irrational.  
 
