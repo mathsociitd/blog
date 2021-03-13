@@ -21,15 +21,15 @@ tags:
 
 An integer is either a perfect square or its square root is irrational. In a more general tone, when you compute the square root of an integer, there are either no figures to the right of the decimal or there are an infinite number of figures to right of the decimal and they don’t repeat. 
 
-Similarly, we can talk about the n<sup>th</sup>root of an integer and the same argument follows.  
+Similarly, we can talk about the n<sup>th</sup> root of an integer and the same argument follows.  
 
-For the sake of convenience, let us evaluate our statement taking ‘2’ as our integer, which can then be generalized to any other positive number.  
+For the sake of convenience, let us evaluate our statement taking ‘$2$’ as our integer, which can then be generalized to any other positive number.  
 
-### *&quot;Prove that  $ \sqrt[n]2 $  is irrational for all  $ n\ge 2 $ , n  $ \in $  N&quot;* 
+## *&quot;Prove that  $ \sqrt[n]2 $  is irrational for all  $ n\ge 2 $, n  $ \in $  N&quot;* 
 
-To answer the above problem, let us take the simple case of n=2 first. It can be proved that √2 is irrational, either by contradiction or by unique factorization. 
+To answer the above problem, let us take the simple case of  $ n=2 $  first. It can be proved that  $ \sqrt 2 $  is irrational, either by contradiction or by unique factorization. 
 
-#### The proof by contradiction goes as follows:
+#### Proof by contradiction
 
 <div style="background-color:#f1f1f1;margin: 0 3px;padding:6px 10px;">
 Assume that  $ \sqrt 2 $  is a rational number. So, it can be expressed in the form  $ p/q $  where  $ p, q $  are co-prime integers and  $ q \ne 0 $ . <br />
@@ -78,10 +78,10 @@ This contradicts our assumption that they are co-primes. Therefore,  $ p/q $  is
 
 </div>
 
-#### Proof by unique factorization:
+#### Proof by unique factorization
 As with the proof by infinite descent, we obtain  $ a^2=2b^2 $ . Being the same quantity, each side has the same prime factorization by the [_fundamental theorem of arithmetic_](https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic), and in particular, would have to have the factor  $ 2 $  occur the same number of times. However, the factor  $ 2 $  appears an odd number of times on the right, but an even number of times on the left *—a contradiction*. 
 
-Next, *for all  $ n>2 $ *, the proof is not so familiar for us.  
+Next, *for all  $ n>2 $*, the proof is not so familiar for us.  
 
 We could either use  *Euclid*’s  arguments or invoke the  rational root theorem to prove the statement. 
 
