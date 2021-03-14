@@ -4,13 +4,12 @@ subtitle: "<b>BONUS</b> From over-killing with Fermat’s Last Theorem to ending
 layout: post
 author: "Aripra Kar and Shammi Malhotra"
 header-style: text
-date: 2021-3-09 23:17:34 +0530
-plchart: true
+date: 2021-03-14 15:14:16 +0530
 mathjax: true
 tags:
-  - post
+  - article
+  - mathematics-in-focus
   - irrationality
-  - pi-day
 ---
 
 
