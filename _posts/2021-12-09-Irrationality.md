@@ -1,6 +1,6 @@
 ---
 title: "How to prove irrationality of n<sup>th</sup> root of any number"
-subtitle: "<b>BONUS:</b> From over-killing with Fermat’s Last Theorem to ending up in bogus proof"
+subtitle: "<b>BONUS</b> From over-killing with Fermat’s Last Theorem to ending up in bogus proof"
 layout: post
 author: "Aripra Kar and Shammi Malhotra"
 header-style: text
@@ -97,7 +97,7 @@ The above arguments can be extended to any integer  $ k $ . In fact, for every i
 
  
 
-## Bonus Section: 
+## Bonus Section
 
 So as promised in this section we will see how **Fermat’s Last Theorem (FLT)** was used to paradoxically prove the irrationality of  $ \sqrt[n]2 $  for  $ n\ge3 $ . 
 
