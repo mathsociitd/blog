@@ -14,32 +14,33 @@ tags:
 ---
 ## Introduction
 
-  In this article we are going to talk about an interesting cyclic phenomena of the Fibonacci Numbers.
+ In this article we are going to talk about an interesting cyclic phenomena of the **Fibonacci Numbers**.
 
 First of all for dummies let us recall Fibonacci Numbers :
 <br/>  The Fibonacci numbers are the numbers in the integer sequence: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, ... defined by the recurrence relation
-
-*F<sub>1</sub>* = 1 <br/>
-*F<sub>2</sub>* = 1 <br/>
-*F<sub>i</sub>* = *F<sub>i-1</sub>* + *F<sub>i-2</sub>*
+<center>
+<em>F<sub>1</sub></em> = 1 <br/>
+<em>F<sub>2</sub></em> = 1 <br/>
+<em>F<sub>i</sub></em> = <em>F<sub>i-1</sub></em> + <em>F<sub>i-2</sub></em>
+</center>
 
 ## Motivation
-  Now if we try to observe the parity of the numbers in the Fibonacci sequence
+Now if we try to observe the parity of the numbers in the Fibonacci sequence
 we get <em>odd(1), odd(1), even(2), odd(3), odd(5), even(8), · · ·</em>
 <br/>
-We observe that the cyclic pattern of odd-odd-even is popping up in the sequence and with simple reasoning it can be shown that this cyclic pattern will always continue.
+We observe that the *cyclic pattern of odd-odd-even* is popping up in the sequence and with simple reasoning it can be shown that this cyclic pattern will always continue.
 
 Now let us try to change the perspective and denote the terms having odd parity by 1 and even parity by 0. So our modified sequences becomes 1, 1, 0, 1, 1, 0, 1, 1, 0, · · ·
 
-And we try to ask ourselves a question ”Can we apply some operation on the Fibonacci Sequence and get this modified version?”. After a bit of thought we realize that we can get it by noting down the remainder we get by dividing
+And we try to ask ourselves a question ”**Can we apply some operation on the Fibonacci Sequence and get this modified version?**”. After a bit of thought we realize that we can get it by noting down the remainder we get by dividing
 the original terms by 2. More technically we call it modulo 2 of the number.
 
 Now we have seen we get this periodic sequence out of Fibonacci Sequence by dividing by 2 and noting the remainders. We now can be a bit curious and try to divide by 3 and note the remainders. So after doing that we will again 1 get the cyclic pattern and it is 1−1−2−0−2−2−1−0 (check it by yourself!).
 
-But we can divide by any natural number ’n’ and note down the remainders. So finally we can ask ourselves ”Does this happen in general with any such ’n’?
-It turns out we always get a repeating sequence and ”PIGEONHOLE PRINCIPLE” can actually help us to figure out why.
+But we can divide by any natural number ’n’ and note down the remainders. So finally we can ask ourselves ”**Does this happen in general with any such ’n’**?
+It turns out we always get a repeating sequence and ”**PIGEONHOLE PRINCIPLE**” can actually help us to figure out why.
 
-## Proof :
+### Proof :
 So what we are going to do is to look at the consecutive pair of numbers and
 record their remainders like for instance consider the case of n = 2 <br/>
 (1, 1),(1, 2),(2, 3),(3, 5), · · · ⇒ (1, 1),(1, 0),(0, 1),(1, 1), · · · So our pigeons
@@ -48,10 +49,10 @@ Note that we have infinite pigeons! <br/>
 Our holes are going to be all possible pairs of remainders we can get after dividing by <em>'n'</em>
 . We denote the pairs of remainders corresponding to (<em>F<sub>n</sub> , F<sub>n+1</sub> </em>)
 by (<em>R<sub>n</sub> , R<sub>n+1</sub> </em>). <br/>
-Holes − > {(*h*, *k*) | 0 ≤ *h* ≤ *n* − 1, 0 ≤ *k* ≤ *n* − 1}. <br/>
+Holes −> {(*h*, *k*) | 0 ≤ *h* ≤ *n* − 1, 0 ≤ *k* ≤ *n* − 1}. <br/>
 As there are n possibilities for each of the coordinates, we have total of n<sup>2</sup> possibilities. So we have n<sup>2</sup> holes.
 
-  As there are more pigeons than the holes present by Pigeonhole Principle
+As there are more pigeons than the holes present by Pigeonhole Principle
 we must have 2 different pairs having the same set of remainders.<br/>
 So ∃m, n ∈ N such that (*F<sub>n</sub>*, *F<sub>n+1</sub>*) = (*F<sub>m</sub>*, *F<sub>m+1</sub>*) and *m < n* ⇒ *R<sub>m</sub> = R<sub>n</sub>*
 and *R<sub>m+1</sub> = R<sub>n+1</sub><br/>*
