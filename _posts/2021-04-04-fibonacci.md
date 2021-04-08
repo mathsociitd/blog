@@ -1,6 +1,6 @@
 ---
-title: "I‘d tell you a Fibonacci joke, but it‘s probably as bad as the last two you‘ve heard combined"
-subtitle: ""
+title: "Something interesting about Fibonacci Numbers"
+subtitle: "I‘d tell you a Fibonacci joke, but it‘s probably as bad as the last two you‘ve heard combined"
 layout: post
 author: "Shammi Malhotra"
 header-style: text
@@ -40,7 +40,7 @@ Now we have seen we get this periodic sequence out of Fibonacci Sequence by divi
 But we can divide by any natural number ’n’ and note down the remainders. So finally we can ask ourselves ”**Does this happen in general with any such ’n’**?
 It turns out we always get a repeating sequence and ”**PIGEONHOLE PRINCIPLE**” can actually help us to figure out why.
 
-### Proof :
+### How? Here's the proof:
 So what we are going to do is to look at the consecutive pair of numbers and
 record their remainders like for instance consider the case of n = 2 <br/>
 (1, 1),(1, 2),(2, 3),(3, 5), · · · ⇒ (1, 1),(1, 0),(0, 1),(1, 1), · · · So our pigeons
