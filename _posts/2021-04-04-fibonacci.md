@@ -13,11 +13,10 @@ tags:
   - fibonacci sequences
 ---
 ## Introduction
-
- In this article we are going to talk about an interesting cyclic phenomena of the **Fibonacci Numbers**.
+In this article we are going to talk about an interesting cyclic phenomena of the **Fibonacci Numbers**.
 
 First of all for dummies let us recall Fibonacci Numbers :
-<br/>  The Fibonacci numbers are the numbers in the integer sequence: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, ... defined by the recurrence relation
+<br/>The Fibonacci numbers are the numbers in the integer sequence: <em>1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, ...</em> defined by the recurrence relation
 <center>
 <em>F<sub>1</sub></em> = 1 <br/>
 <em>F<sub>2</sub></em> = 1 <br/>
@@ -40,7 +39,7 @@ Now we have seen we get this periodic sequence out of Fibonacci Sequence by divi
 But we can divide by any natural number ’n’ and note down the remainders. So finally we can ask ourselves ”**Does this happen in general with any such ’n’**?
 It turns out we always get a repeating sequence and ”**PIGEONHOLE PRINCIPLE**” can actually help us to figure out why.
 
-### How? Here's the proof:
+**How? Here's the proof:** <br/>
 So what we are going to do is to look at the consecutive pair of numbers and
 record their remainders like for instance consider the case of n = 2 <br/>
 (1, 1),(1, 2),(2, 3),(3, 5), · · · ⇒ (1, 1),(1, 0),(0, 1),(1, 1), · · · So our pigeons
@@ -61,17 +60,16 @@ we know what remainders are for a pair we can actually find the remainder for
 the subsequent number. But as first 2 remainders are same the next one also
 be same.<br/>
 
-⇒ *R<sub>m+2</sub> = R<sub>n+2</sub> <br/>*
+ <center>⇒<em>R<sub>m+2</sub> = R<sub>n+2</sub></em></center><br/>
 But then this implies the very next pairs also repeat, i.e.,
-(*F<sub>n+1</sub>, F<sub>n+2</sub>*) = (*F<sub>m+1</sub>, F<sub>m+2</sub>*). Recursively applying this argument our sequence of remainder will become eventually periodic. But note that given Fn
-and *F<sub>n+1</sub>* we can also get *F<sub>n-1</sub>*. So by knowing the remainders for a pair we
+(<em>F<sub>n+1</sub>, F<sub>n+2</sub></em>) = (<em>F<sub>m+1</sub>, F<sub>m+2</sub></em>). Recursively applying this argument our sequence of remainder will become eventually periodic. But note that given Fn
+and <em>F<sub>n+1</sub></em> we can also get <em>F<sub>n-1</sub></em>. So by knowing the remainders for a pair we
 can also find the remainder for the previous number.<br/>
 Hence sequences of remainders become periodic.
 
 ## Remarks:
-1) *n − m* actually is how far we need to go for repetition. We might go even
+1. *n − m* actually is how far we need to go for repetition. We might go even
 shorter to get repetition.
-2) The period with which the sequence of Fibonacci numbers taken modulo n
+2. The period with which the sequence of Fibonacci numbers taken modulo n
 repeats is known as the *n<sup>th</sup>* **Pisano Period**. Pisano periods are named after
 Leonardo Pisano, better known as Fibonacci.
-2
