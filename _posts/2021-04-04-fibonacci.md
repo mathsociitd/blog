@@ -9,9 +9,14 @@ mathjax: true
 tags:
   - article
   - mathematics-in-focus
-  - fibonacci numbers
-  - fibonacci sequences
+  - fibonacci-numbers
+  - fibonacci-sequences
 ---
+
+<video width="100%" controls>
+<source src="{{ site.baseurl }}/media/post/2021-03-14-irrationality-of-nth-roots-promo.mp4" type="video/mp4">
+</video>
+
 ## Introduction
 In this article we are going to talk about an interesting cyclic phenomena of the **Fibonacci Numbers**.
 
