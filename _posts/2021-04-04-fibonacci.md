@@ -14,7 +14,7 @@ tags:
 ---
 
 <video width="100%" controls>
-<source src="{{ site.baseurl }}/media/post/2021-03-14-irrationality-of-nth-roots-promo.mp4" type="video/mp4">
+<source src="{{ site.baseurl }}/media/post/2021-04-09-fibonacci-promo.mp4" type="video/mp4">
 </video>
 
 ## Introduction
