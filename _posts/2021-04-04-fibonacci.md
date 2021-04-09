@@ -1,5 +1,5 @@
 ---
-title: "Something interesting about Fibonacci Numbers"
+title: "Cyclicity of Fibonacci Numbers"
 subtitle: "I‘d tell you a Fibonacci joke, but it‘s probably as bad as the last two you‘ve heard combined"
 layout: post
 author: "Shammi Malhotra"
