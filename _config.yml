@@ -111,3 +111,4 @@ friends: false
     # },{ ... }
         
   #]
+exclude: ['vendor']
