@@ -14,7 +14,7 @@ tags:
 
 # COLOR THEOREM
 
-## **INTRODUCTION:**
+## **INTRODUCTION**
 
 Hello everyone, here we are going to talk about the famous mathematical theorem, FOUR COLOR THEOREM.  
 
@@ -26,7 +26,7 @@ The four-color theorem is an outstanding example of how old ideas combine with n
 
 The four-color theorem which is also called the FOUR-COLOR MAP THEOREM AND GUTHRIE’S PROBLEM after F. GUTHRIE, who first conjectured the theorem in 1852  So, the theorem originally posed in 1852 and not solved until 1976.  
 
-## **MOTIVATION:**
+## **MOTIVATION**
 
 The four-color theorem is easy to understand by its statement but the proof of this theorem is so complicated. The theorem states, “any map in a plane can be colored using four colors in such a way that region sharing a common boundary other than a single part do not share the same color.”  
 
@@ -42,37 +42,37 @@ By induction: so first, the graph with one vertex can be colored using no more t
 
 *By invariant*: here, let’s take the Euler characteristic. It is a rule for every connected planer graph,  
 
-i.e.                            $ v – e + f = 2 $        { where: e = edges, v = vertices and f= faces}  
+i.e.                            <center> $ v – e + f = 2 $ </center>        { where: e = edges, v = vertices and f= faces}  
 
 *By contradiction*: Let’s assume that, in fact every vertex needs to have a minimum of six neighbors and there can’t be any with five or less. There needs to be at least three times the numbers of edges as vertices because every edge is shared between two vertices.  
 
-​                                 $$ e \leq 3v $$                        
+​                                 <center> $ e \leq 3v $ </center>                        
 
 Now, we need to prove that this assumption results in a contradiction.  
 
 Since, we know by the Euler’s theorem:  
 
-​                        $$ v – e + f = 2  $$                     
+​                        <center> $ v – e + f = 2  $ </center>                     
 
 And the all faces must have at least three edges then:  
 
-​                         $$      f \leq  2/3e    $$
+​                         <center> $      f \leq  2/3e    $ </center>
 
 now, we get:  
 
-​                        $$ v – e + 2/3e \geq 2 $$
+​                        <center> $ v – e + 2/3e \geq 2 $ </center>
 
-​                        $$    v – 1/3e \geq 2 $$
+​                        <center> $    v – 1/3e \geq 2 $ </center>
 
-​                        $$      e \leq 3v – 6 $$
+​                        <center> $      e \leq 3v – 6 $ </center>
 
-i.e.                  $$ -6 \geq e – 3v $$ 
+i.e.                 <center> $ -6 \geq e – 3v $ </center> 
 
  
 
 Thus, we get this contradiction that:  
 
-​                       $$  -6 \geq e – 3v \geq  0  $$
+​                      <center> $  -6 \geq e – 3v \geq  0 $ </center>
 
 So, our assumption that the minimum no. of neighbors is $6$, is wrong and thus, we get that the vertex with the minimum no. of neighbors is five or less.  
 
@@ -90,7 +90,7 @@ So, that means that if all these graphs did in fact have this special property o
 
 Hence, the four-color theorem is proved.  
 
-### Remarks : 
+### Remarks  
 
 1. The proof of the four-color theorem is much difficult than five color theorem, and six color theorems as we can see above.  
 
@@ -98,7 +98,7 @@ Hence, the four-color theorem is proved.
 
    provided by computers, for example the proof of Boolean Pythagorean triples problem.  
 
-### References : 
+### References 
 
 1. [EVERY PLANER MAP IS FOUR COLORABLE; PART II: REDUCIBILITY, By K. Appel, W. Haken, and J. Koch](https://drive.google.com/file/d/16sPURpm-9QwEro8VmL27MOYzvzPsSMlu/view)
 2. [THE FIVE-COLOR THEOREM written by Moti Ben-Ari.](https://drive.google.com/file/d/16q6Q25OS_nb-Q1L8W2i4vJnz4a9ZvAZ2/view) 
