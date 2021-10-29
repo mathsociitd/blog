@@ -10,8 +10,8 @@ tags:
   - article
   - mathematics-in-focus
 ---
-
-<img src = "/blog/media/post/2021-10-27-four-color-theorem_img2.PNG" alt = "nothing" display:block>
+<div style="margin:-20px">
+<img src = "/blog/media/post/2021-10-27-four-color-theorem_img2.PNG" alt = "nothing" display:block></div>
 <div style="margin:-20px"><h1> COLOR THEOREM </h1></div>
 
 ## **INTRODUCTION**
