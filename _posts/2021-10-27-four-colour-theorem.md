@@ -19,9 +19,10 @@ Hello everyone, here we are going to talk about the famous mathematical theorem,
 
 The four-color theorem is an outstanding example of how old ideas combine with new discoveries and techniques in different fields of mathematics to provide new approaches to a problem. It is also an example of how an apparently simple problem was through to be solved but then become more complex and it is the first spectacular example where a computer was involved in proving a mathematical theorem.   
 
-<p align="center">
+
+<div style="line-height:10px">
 <img align = "center" src = "/blog/media/post/2021-10-27-four-color-theorem_img1.PNG" alt = "nothing">
-</p>
+</div>
 
 The four-color theorem which is also called the FOUR-COLOR MAP THEOREM AND GUTHRIE’S PROBLEM after F. GUTHRIE, who first conjectured the theorem in 1852  So, the theorem originally posed in 1852 and not solved until 1976.  
 
