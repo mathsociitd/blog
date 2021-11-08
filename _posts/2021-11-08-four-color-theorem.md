@@ -9,6 +9,9 @@ mathjax: true
 tags:
   - article
   - mathematics-in-focus
+  - four-color-theorem
+  - graphs
+  - computing
 ---
 
 <div>
