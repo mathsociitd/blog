@@ -4,7 +4,7 @@ subtitle: "A summary of FOUR COLOR THEOREM ."
 layout: post
 author: Vinita Meena
 header-style: text
-date: 2021-10-27 17:00:00 +0530
+date: 2021-11-08 17:00:00 +0530
 mathjax: true
 tags:
   - article
@@ -12,7 +12,7 @@ tags:
 ---
 
 <div>
-  <img src="/blog/media/post/2021-10-27-four-color-theorem_img2.PNG" alt="four">
+  <img src="/blog/media/post/2021-11-08-four-color-theorem_img2.PNG" alt="four">
   <h1 style="margin-top: -20px"> COLOR THEOREM </h1>
 </div>
 
@@ -24,7 +24,7 @@ The four-color theorem is an outstanding example of how old ideas combine with n
 
 
 <div style="line-height:10px">
-<img align = "center" src = "/blog/media/post/2021-10-27-four-color-theorem_img1.PNG" alt = "nothing">
+<img align = "center" src = "/blog/media/post/2021-11-08-four-color-theorem_img1.PNG" alt = "nothing">
 </div>
 
 The four-color theorem which is also called the FOUR-COLOR MAP THEOREM AND GUTHRIE’S PROBLEM after F. GUTHRIE, who first conjectured the theorem in 1852  So, the theorem originally posed in 1852 and not solved until 1976.  
