@@ -1,5 +1,5 @@
 ---
-
+title: "Four Color Theorem"
 subtitle: "A summary of FOUR COLOR THEOREM ."
 layout: post
 author: Vinita Meena
