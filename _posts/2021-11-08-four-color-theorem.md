@@ -52,7 +52,7 @@ i.e.                            <center> $ v – e + f = 2 $ </center>        { 
 
 *By contradiction*: Let’s assume that, in fact every vertex needs to have a minimum of six neighbors and there can’t be any with five or less. There needs to be at least three times the numbers of edges as vertices because every edge is shared between two vertices.  
 
-​                                 <center> $ e \leq 3v $ </center>                        
+​                                 <center> $ 3v \leq e $ </center>                        
 
 Now, we need to prove that this assumption results in a contradiction.  
 
@@ -100,9 +100,7 @@ Hence, the four-color theorem is proved.
 
 1. The proof of the four-color theorem is much difficult than five color theorem, and six color theorems as we can see above.  
 
-2. The mathematics community had a lot of trouble accepting this as a proof. Because it is not easy to proof without computer. But since than many more mathematical proofs have been 
-
-   provided by computers, for example the proof of Boolean Pythagorean triples problem.  
+2. The mathematics community had a lot of trouble accepting this as a proof. Because it is not easy to proof without computer. But since than many more mathematical proofs have been provided by computers, for example the proof of Boolean Pythagorean triples problem.  
 
 ### References 
 
