@@ -1,6 +1,6 @@
 ---
 title: "A train ride and a card trick"
-subtitle: "the intriguingnature of numbers"
+subtitle: "the intriguing nature of numbers"
 layout: post
 author: Rahul Bhardwaj
 header-style: text
