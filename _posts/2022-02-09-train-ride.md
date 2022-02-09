@@ -1,10 +1,10 @@
 ---
 title: "A train ride and a card trick"
-subtitle: "game that turned a boy into a mathematician"
+subtitle: "the intriguingnature of numbers"
 layout: post
 author: Rahul Bhardwaj
 header-style: text
-date: 2021-11-08 17:00:00 +0530
+date: 2022-02-09 17:00:00 +0530
 mathjax: true
 tags:
   - article
