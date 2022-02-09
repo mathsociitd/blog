@@ -96,11 +96,11 @@ Spreading the cards again, we'll now realise the the 10th, 11th and 12th cards a
 That's a lot of words. Let's write some mathematical expressions. Let $f(k)$ be the position where the $k$ th card goes after doing this process once.
 
 Then it is easy to see that,
-$$
+$
 f(k) = 7 + \left\lceil\dfrac{k}{3}\right\rceil \quad k \in \{1,2,3, \ldots, 21\}
-$$
+$
 Let $n$ be the number of iterations of the process required to attain a fixed point $k_0$. Then observe that,
-$$
+$
 \begin{align*}
 f(k) &= \left\lceil\dfrac{k+21}{3}\right\rceil \\
 f(f(k)) & = 7 + \left\lceil\dfrac{\left\lceil\dfrac{k+21}{3}\right\rceil }{3}\right\rceil 
@@ -112,7 +112,7 @@ f(f(f(k))) &= 9 + \left\lceil\dfrac{\left\lceil\dfrac{k+21}{3}\right\rceil+3}{9}
 &= 9 + \left\lceil\dfrac{k+30}{27}\right\rceil = 10 + \left\lceil\dfrac{k+3}{27}\right\rceil \\ 
 & = 10 + 1 = 11 \quad \quad \left\{\frac{4}{27} \leq \dfrac{k+3}{27} \leq \frac{24}{27} \implies \left\lceil\dfrac{k+3}{27} \right\rceil = 1\right\}
 \end{align*}
-$$
+$
 We get a fixed point. Any further application of the mapping will have no effect since $11$ maps to itself. 
 
 A problem for the reader, can you find the fixed point and the number of iterations required for the case of $n_0\times3$ distinct cards? Additionally, can you prove  $\left\lceil\dfrac{\lceil m \rceil}{n}\right\rceil = \left\lceil\dfrac{m}{n}\right\rceil$?
