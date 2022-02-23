@@ -4,7 +4,7 @@ subtitle: "The math behind the 21 card magic trick..."
 layout: post
 author: Rahul Bhardwaj
 header-style: text
-date: "2022-02-23 17:00:00 +05:30"
+date: "2022-02-23 17:00:00 +06:00"
 mathjax: true
 tags:
   - article
@@ -14,11 +14,13 @@ tags:
   - fixed-point-mapping
 ---
 
+<center>
 <div>
   <img src="/blog/media/post/2022-02-23-train-ride_img.jpeg" alt="four">
 
   <p style="color:#D3D3D3;font-size:12px;" >Image taken from <a href="https://mathsmartinthomas.wordpress.com/">here</a> </p>
 </div>
+</center>
 
 
 
