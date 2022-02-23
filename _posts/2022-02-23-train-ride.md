@@ -4,7 +4,7 @@ subtitle: "The math behind the 21 card magic trick..."
 layout: post
 author: Rahul Bhardwaj
 header-style: text
-date: "2022-02-23 17:00:00 +06:00"
+date: "2022-02-23 18:00:00 +05:30"
 mathjax: true
 tags:
   - article
