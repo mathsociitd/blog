@@ -16,10 +16,8 @@ tags:
 
 <div>
   <img src="/blog/media/post/2022-02-23-train-ride_img.jpeg" alt="four">
-  <!-- <h1 style="margin-top: -20px">Image taken from <a href https://mathsmartinthomas.wordpress.com/2017/01/27/maths-prize-puzzle-27-january-the-21-card-trick//> /h1> -->
-  <p style="color:#D3D3D3;font-size:12px;" >Image taken from <a href="https://mathsmartinthomas.wordpress.com/">here</a> </p1>
-  <!-- <a href="https://mathsmartinthomas.files.wordpress.com/2015/11/21cards.jpg">here</a> -->
 
+  <p style="color:#D3D3D3;font-size:12px;" >Image taken from <a href="https://mathsmartinthomas.wordpress.com/">here</a> </p>
 </div>
 
 
