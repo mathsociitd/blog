@@ -1,10 +1,10 @@
 ---
 title: "A train ride and a card trick"
-subtitle: "the intriguing nature of numbers"
+subtitle: "The math behind the 21 card magic trick..."
 layout: post
 author: Rahul Bhardwaj
 header-style: text
-date: 2022-02-09 17:00:00 +0530
+date: "2022-02-23 17:00:00 +05:30"
 mathjax: true
 tags:
   - article
@@ -13,7 +13,7 @@ tags:
   - modulus-arithmetic
   - fixed-point-mapping
 ---
-# A train ride and a card trick
+
 <div>
   <img src="/blog/media/post/2022-02-09-train-ride_img.jpeg" alt="four">
   <h1 style="margin-top: -20px">21 Cards </h1>
@@ -47,10 +47,11 @@ You now place the cards row by row, so 1 goes in the first column, 2 goes in the
 |  19  |  20  |  21  |
 
 Now, since $3$ is in the third column we place this column between the other two. So, now our new order of cards is,
-$$
+<center>
+$
 2, 5, 8, 11, 14, 17, 20, 3, 6, 9, 12, 15, 18, 21, 1, 4, 7, 10, 13, 16, 19
-$$
-
+$
+</center>
 Notice that $3$ is now in the eighth position. We do this again.
 
 |  2   |  5   |  8   |
@@ -63,9 +64,11 @@ Notice that $3$ is now in the eighth position. We do this again.
 |  13  |  16  |  19  |
 
 This time $3$ is in the middle column, we place this column between the other two. After doing this process twice our new order of cards is,
-$$
+<center>
+$
 2, 11, 20, 9, 18, 4, 13, 5, 14, 3, 12, 21, 7, 16, 8, 17, 6, 15, 1, 10, 19
-$$
+$
+</center>
 We do this one final time,
 
 |  2   |  11  |  20  |
@@ -78,9 +81,11 @@ We do this one final time,
 |  1   |  10  |  19  |
 
 This time $3$ is in the first column, we place this column between the other two. Now the order is, 
-$$
+<center>
+$
 11, 18, 5, 12, 16, 6, 10, 2, 9, 13, 3, 7, 17, 1, 20, 4, 14, 21, 8, 15, 19
-$$
+$
+</center>
 $3$ is now in the $11\text{th}$ position as the 'magic trick' said it would be.
 
 Why? Why does this work?
