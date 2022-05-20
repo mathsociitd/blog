@@ -1,10 +1,10 @@
 ---
 title: "Continuum Hypothesis"
-subtitle: " A Hypothesis about the possible sizes of infinite sets"
+subtitle: " A hypothesis about the possible sizes of infinite sets"
 layout: post
-author: Tanvi
+author: Tanvi Meena
 header-style: text
-date: "2022-04-13 18:00:00 +05:30"
+date: "2022-05-21 18:00:00 +05:30"
 mathjax: true
 tags:
   - article
@@ -14,12 +14,9 @@ tags:
   - hilbert's-mathematical-problem
 ---
 
-# CONTINUUM HYPOTHESIS
+> Solved or unsolved? Can you prove it true? No. Can you prove it false? No. But why??
 
-## A Hypothesis about the possible sizes of infinite sets
-> Solved or unsolved? Can you prove it true?No. Can you prove it false?No. But why??
-
-> Doesn’t this excite you to know more?LET’S TALK ABOUT IT !
+> Doesn’t this excite you to know more? LET’S TALK ABOUT IT!
 
 ### INTRODUCTION
 
@@ -46,17 +43,15 @@ Well, the key question is whether these conjectures can be proved or not? If the
 
 There is still no evidence on what basis the hypothesis should be kept and on what basis the hypothesis should be rejected. Let’s wait to see what happens next…
 
-#### References:
+#### REFERENCES
 
-1. For Zermelo-Fraenkel Axioms : https://cdn.britannica.com/46/78246-004-10DAA5A8/Zermelo-Fraenkel-axioms.jpg
-2. https://plato.stanford.edu/entries/continuum-hypothesis/
-3. https://www.britannica.com/science/continuum-hypothesis
-4. https://www.ias.edu/ideas/2011/kennedy-continuum-hypothesis
-5. https://e.math.cornell.edu/people/mann/classes/chicago/CH.pdf
-6. https://plato.stanford.edu/entries/continuum-hypothesis/
-7. https://mathoverflow.net/questions/23829/solutions-to-the-continuum-hypothesis
-8. https://ercim-news.ercim.eu/en73/special/the-continuum-hypothesis-a-mystery-of-mathematics
-9. https://anthonybonato.com/2018/01/03/the-continuum-hypothesis/
-10. https://honorscollege.charlotte.edu/sites/honorscollege.charlotte.edu/files/media/Capstone%20-%20Rachel%20Minster%20-%20Layperson%20Summary%20-%20Math%20Example%20%28on%20Capstone%20Project%20Examples%29.pdf
-11. https://honorscollege.charlotte.edu/sites/honorscollege.charlotte.edu/files/media/Capstone - Rachel Minster - Layperson Summary - Math Example (on Capstone Project Examples).pdf
-12. https://www.cambridge.org/core/books/abs/set-theory-arithmetic-and-foundations-of-mathematics/continuum-hypothesis-the-genericmultiverse-of-sets-and-the-conjecture/2574A30D597A9FD7D8D5002F655C67C4
+1. <a href="https://cdn.britannica.com/46/78246-004-10DAA5A8/Zermelo-Fraenkel-axioms.jpg">Zermelo-Fraenkel Axioms</a>
+2. <a href="https://plato.stanford.edu/entries/continuum-hypothesis/">Stanford Encyclopedia of Philosphy</a>
+3. <a href="https://www.britannica.com/science/continuum-hypothesis">Britannica Continuuum Hypothesis</a>
+4. <a href="https://www.ias.edu/ideas/2011/kennedy-continuum-hypothesis">Can the Continuum Hypothesis Be Solved? - By Kennedy</a>
+5. <a href="https://e.math.cornell.edu/people/mann/classes/chicago/CH.pdf">The Continuum Hypothesis: how big is infinity?</a>
+6. <a href= "https://mathoverflow.net/questions/23829/solutions-to-the-continuum-hypothesis">Mathoverflow- Solutions to Continuum Hypothesis</a>
+7. <a href="https://ercim-news.ercim.eu/en73/special/the-continuum-hypothesis-a-mystery-of-mathematics">The Continuum Hypothesis: A Mystery of Mathematics?</a>
+8. <a href="https://anthonybonato.com/2018/01/03/the-continuum-hypothesis/">THE INTREPID MATHEMATICIAN</a>
+9. <a href="https://honorscollege.charlotte.edu/sites/honorscollege.charlotte.edu/files/media/Capstone%20-%20Rachel%20Minster%20-%20Layperson%20Summary%20-%20Math%20Example%20%28on%20Capstone%20Project%20Examples%29.pdf">Proving the Continuum Hypothesis Independent of the Axioms of Set Theory</a>
+10. <a href="https://www.cambridge.org/core/books/abs/set-theory-arithmetic-and-foundations-of-mathematics/continuum-hypothesis-the-genericmultiverse-of-sets-and-the-conjecture/2574A30D597A9FD7D8D5002F655C67C4">Article by CambridgeCore</a>
