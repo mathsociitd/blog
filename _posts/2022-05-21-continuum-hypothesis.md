@@ -1,3 +1,18 @@
+---
+title: "Continuum Hypothesis"
+subtitle: " A hypothesis about the possible sizes of infinite sets"
+layout: post
+author: Tanvi Meena
+header-style: text
+date: "2022-05-21 18:00:00 +05:30"
+mathjax: true
+tags:
+  - article
+  - mathematics-in-focus
+  - continuum hypothesis
+  - cardinality
+  - hilbert's-mathematical-problem
+---
 
 > Solved or unsolved? Can you prove it true? No. Can you prove it false? No. But why??
 
