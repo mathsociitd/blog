@@ -1,18 +1,3 @@
----
-title: "Continuum Hypothesis"
-subtitle: " A hypothesis about the possible sizes of infinite sets"
-layout: post
-author: Tanvi Meena
-header-style: text
-date: "2022-05-21 18:00:00 +05:30"
-mathjax: true
-tags:
-  - article
-  - mathematics-in-focus
-  - continuum hypothesis
-  - cardinality
-  - hilbert's-mathematical-problem
----
 
 > Solved or unsolved? Can you prove it true? No. Can you prove it false? No. But why??
 
@@ -20,10 +5,12 @@ tags:
 
 ### INTRODUCTION
 
-Before jumping into the details of the hypothesis, let’s give you some idea of the basic terms to understand this. As the continuum hypothesis and set theory are somehow related, we say there are a few kinds of sets, such as finite sets, infinite sets, countable sets, and uncountable sets. Related to these types of sets, the term ‘cardinality’ basically gives the idea of the number of elements in a set, or let’s say the size of a set. For example, the set $$ \{-1,8,6,0\} $$ has cardinality equals 4, as its number of elements is 4. So, the two sets which are in one to one correspondence with each other are said to have the same cardinality. We represent the cardinality of countably infinite set with $\mathbf{\aleph_0}$ (aleph naught) and We denote the cardinality of set of integers as $|\mathbb{Z}|$. Also, $|\mathbb{Z}| = |\mathbb{N}| = |\mathbb{Q}| = \aleph_0$. Similarly, for the uncountable infinite sets, $\mathbf{\aleph_i}$ , $i=1,2,3\dots $ denotes the cardinality. For example, Set of real numbers is not countable i.e. $|\mathbb{R}| = \aleph_1 $ .The **Continuum Hypothesis** is from set theory. It says that **there** **is no set whose cardinality is strictly between that of the integers and the real numbers**. Mathematically, the Continuum Hypothesis can be stated in the form of the following equation: 
+Before jumping into the details of the hypothesis, let’s give you some idea of the basic terms to understand this. As the continuum hypothesis and set theory are somehow related, we say there are a few kinds of sets, such as finite sets, infinite sets, countable sets, and uncountable sets. Related to these types of sets, the term ‘cardinality’ basically gives the idea of the number of elements in a set, or let’s say the size of a set. For example, the set <center> $$ \{-1,8,6,0\} $$ </center> has cardinality equals 4, as its number of elements is 4. So, the two sets which are in one to one correspondence with each other are said to have the same cardinality. We represent the cardinality of countably infinite set with $\mathbf{\aleph_0}$ (aleph naught) and We denote the cardinality of set of integers as $|\mathbb{Z}|$. Also, $|\mathbb{Z}| = |\mathbb{N}| = |\mathbb{Q}| = \aleph_0$. Similarly, for the uncountable infinite sets, $\mathbf{\aleph_i}$ , $i=1,2,3\dots $ denotes the cardinality. For example, Set of real numbers is not countable i.e. $|\mathbb{R}| = \aleph_1 $ .The **Continuum Hypothesis** is from set theory. It says that **there** **is no set whose cardinality is strictly between that of the integers and the real numbers**. Mathematically, the Continuum Hypothesis can be stated in the form of the following equation: 
+<center>
 $$
 2^{\aleph_0} = \aleph_1
 $$
+</center>
 where $\aleph_0$ is the cardinality of an infinite countable set (Ex, set of natural numbers), and the cardinal numbers of larger “well-orderable sets” are $\aleph_1, \aleph_2, \dots, \aleph_{\alpha}, \dots $ are the ordinal numbers. The cardinality of the continuum can be shown to equal $2^{\aleph_0}$; thus, according to the continuum hypothesis, there can’t exist a set of size intermediate between the natural numbers and the continuum. That was a basic introduction to the continuum hypothesis. Now, let’s travel through time researching the continuum hypothesis and let’s see more about it in the motivation ‘section’ below.
 
 ### MOTIVATION
