@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="rM1p8GZDCiQ8M9AIIrvLNA23FvUH46fDVxXpdjbm4Oc" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Blog for Mathematics Society, IIT Delhi">
+    <meta name="keywords"  content="mathsociitd, mathsoc-blog">
+    <meta name="theme-color" content="#000000">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Continuum Hypothesis - Mathematics Society, IIT Delhi">
+    
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="
+  Solved or unsolved? Can you prove it true? No. Can you prove it false? No. But why??
+
+">
+    
+    <meta property="article:published_time" content="2022-05-21T18:00:00Z">
+    
+    
+    <meta property="article:author" content="Tanvi Meena">
+    
+    
+    <meta property="article:tag" content="article">
+    
+    <meta property="article:tag" content="mathematics-in-focus">
+    
+    <meta property="article:tag" content="continuum hypothesis">
+    
+    <meta property="article:tag" content="cardinality">
+    
+    <meta property="article:tag" content="hilbert's-mathematical-problem">
+    
+    
+    <meta property="og:url" content="http://localhost:4000/2022/05/21/continuum-hypothesis/">
+    <meta property="og:site_name" content="Mathematics Society, IIT Delhi">
+    
+    <title>Continuum Hypothesis - Mathematics Society, IIT Delhi</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/blog/img/favicon/site.webmanifest">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/blog/img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/blog/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/blog/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/blog/img/favicon/favicon-16x16.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/blog/2022/05/21/continuum-hypothesis/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/blog/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/blog/css/blog.min.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top invert">
+    
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://mathsoc.iitd.ac.in/"><i class="fa fa-angle-left" style="margin-right:10px;"></i>Mathematics Society, IIT Delhi</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="huxblog_navbar">
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="/blog/">Home</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        <li>
+                            <a href="/blog/archive/">Archive</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li class="search-icon">
+                            <a href="javascript:void(0)">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <script>
+        // Drop Bootstarp low-performance Navbar
+        // Use customize navbar with high-quality material design animation
+        // in high-perf jank-free CSS3 implementation
+        var $body = document.body;
+        var $toggle = document.querySelector('.navbar-toggle');
+        var $navbar = document.querySelector('#huxblog_navbar');
+        var $collapse = document.querySelector('.navbar-collapse');
+
+        var __HuxNav__ = {
+            close: function () {
+                $navbar.className = " ";
+                // wait until animation end.
+                setTimeout(function () {
+                    // prevent frequently toggle
+                    if ($navbar.className.indexOf('in') < 0) {
+                        $collapse.style.height = "0px"
+                    }
+                }, 400)
+            },
+            open: function () {
+                $collapse.style.height = "auto"
+                $navbar.className += " in";
+            }
+        }
+
+        // Bind Event
+        $toggle.addEventListener('click', function (e) {
+            if ($navbar.className.indexOf('in') > 0) {
+                __HuxNav__.close()
+            } else {
+                __HuxNav__.open()
+            }
+        })
+
+        /**
+         * Since Fastclick is used to delegate 'touchstart' globally
+         * to hack 300ms delay in iOS by performing a fake 'click',
+         * Using 'e.stopPropagation' to stop 'touchstart' event from 
+         * $toggle/$collapse will break global delegation.
+         * 
+         * Instead, we use a 'e.target' filter to prevent handler
+         * added to document close HuxNav.  
+         *
+         * Also, we use 'click' instead of 'touchstart' as compromise
+         */
+        document.addEventListener('click', function (e) {
+            if (e.target == $toggle) return;
+            if (e.target.className == 'icon-bar') return;
+            __HuxNav__.close();
+        })
+    </script>
+    <!-- Search -->
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/blog/img/home-bg.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+
+
+
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/blog/img/home-bg.jpg');
+        background: ;
+    }
+
+    
+</style>
+
+<header class="intro-header style-text" >
+
+    <div class="header-mask"></div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/blog/archive/?tag=article" title="article">article</a>
+                        
+                        <a class="tag" href="/blog/archive/?tag=mathematics-in-focus" title="mathematics-in-focus">mathematics-in-focus</a>
+                        
+                        <a class="tag" href="/blog/archive/?tag=continuum+hypothesis" title="continuum hypothesis">continuum hypothesis</a>
+                        
+                        <a class="tag" href="/blog/archive/?tag=cardinality" title="cardinality">cardinality</a>
+                        
+                        <a class="tag" href="/blog/archive/?tag=hilbert%27s-mathematical-problem" title="hilbert's-mathematical-problem">hilbert's-mathematical-problem</a>
+                        
+                    </div>
+                    <h1>Continuum Hypothesis</h1>
+                    
+                    <h2 class="subheading"> A hypothesis about the possible sizes of infinite sets</h2>
+                    <span class="meta">Authored by Tanvi Meena on May 21, 2022</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                <!-- Multi-Lingual -->
+                
+
+				<blockquote>
+  <p>Solved or unsolved? Can you prove it true? No. Can you prove it false? No. But why??</p>
+</blockquote>
+
+<blockquote>
+  <p>Doesn’t this excite you to know more? LET’S TALK ABOUT IT!</p>
+</blockquote>
+
+<h3 id="introduction">INTRODUCTION</h3>
+
+<p>Before jumping into the details of the hypothesis, let’s give you some idea of the basic terms to understand this. As the continuum hypothesis and set theory are somehow related, we say there are a few kinds of sets, such as finite sets, infinite sets, countable sets, and uncountable sets. Related to these types of sets, the term ‘cardinality’ basically gives the idea of the number of elements in a set, or let’s say the size of a set. For example, the set <center> $$ \{-1,8,6,0\} $$ </center> has cardinality equals 4, as its number of elements is 4. So, the two sets which are in one to one correspondence with each other are said to have the same cardinality. We represent the cardinality of countably infinite set with $\mathbf{\aleph_0}$ (aleph naught) and We denote the cardinality of set of integers as $|\mathbb{Z}|$. Also, $|\mathbb{Z}| = |\mathbb{N}| = |\mathbb{Q}| = \aleph_0$. Similarly, for the uncountable infinite sets, $\mathbf{\aleph_i}$ , $i=1,2,3\dots $ denotes the cardinality. For example, Set of real numbers is not countable i.e. $|\mathbb{R}| = \aleph_1 $ .The <strong>Continuum Hypothesis</strong> is from set theory. It says that <strong>there</strong> <strong>is no set whose cardinality is strictly between that of the integers and the real numbers</strong>. Mathematically, the Continuum Hypothesis can be stated in the form of the following equation:</p>
+<center>
+$$
+2^{\aleph_0} = \aleph_1
+$$
+</center>
+<p>where $\aleph_0$ is the cardinality of an infinite countable set (Ex, set of natural numbers), and the cardinal numbers of larger “well-orderable sets” are $\aleph_1, \aleph_2, \dots, \aleph_{\alpha}, \dots $ are the ordinal numbers. The cardinality of the continuum can be shown to equal $2^{\aleph_0}$; thus, according to the continuum hypothesis, there can’t exist a set of size intermediate between the natural numbers and the continuum. That was a basic introduction to the continuum hypothesis. Now, let’s travel through time researching the continuum hypothesis and let’s see more about it in the motivation ‘section’ below.</p>
+
+<h3 id="motivation">MOTIVATION</h3>
+
+<p>The Continuum Hypothesis(CH) has been known to us since the birth of set theory. In 1873, a famous mathematician named <strong>Cantor</strong> was unable to resolve the problem of CH. Let me mention again the statement of continuum hypothesis so that you don’t miss the context. The continuum hypothesis is reduced to the question, <strong>how big is infinity?</strong> After Cantor’s failed attempt on CH, <strong>Hilbert and Cohen</strong> took this problem into their hands and they reached to a conclusion that it can’t be resolved through the existing set of axioms of mathematics. They were only able to show that these axioms are not enough to settle CH. In-fact, the CH came out to be independent of these axioms of choices from Zermelo-Frankel set theory (ZFC).</p>
+
+<p>It was this hypothesis which led Cantor to develop the set theory during the attempt to solve the continuum hypothesis. But why do they say “You can neither prove it wrong nor true”? Does this mean it doesn’t have a solution? There can be a few ideas to understand the scenario. Either the mathematicians don’t have the required principles yet or they are missing the key principles or are there principles to find that will enable them to find whether the continuum hypothesis is <strong>true or false</strong>? Or maybe, there is this much stronger version of <strong>Cohen’s theorem</strong>, that shows that there really is no answer. In mathematical terms, the two concepts are there in mind of a mathematician:</p>
+
+<ol>
+  <li>The mathematical infinity</li>
+  <li>The universe of sets</li>
+</ol>
+
+<p>The fact that it’s all a human creation points the finger of doubt towards this concept of infinity being a fiction. If the Continuum Hypothesis is all <strong>fiction</strong>, then so is the set theory and the concept of infinity and the other concepts that are derived from it. Then the question pops up into our mind that it could all just be an extrapolation of something which is not true, not being able to answer the continuum hypothesis is a direct challenge to this. That’s not all.</p>
+
+<p>Past the time of Hilbert and Cohen, the next 30 years were of Gödel’s. Following one line of inquiry or an attempt to find new axioms, he showed there was a kind of ultimate solution along this line and speculated then in a series of articles that the continuum hypothesis was false. In Fact there was exactly one infinity in between the infinity of a counting numbers and infinity of real numbers and in any case he showed that there was an optim seal solution, but then that solution ultimately doesn’t fit into understanding the entire universe of sets, that is the continuum hypothesis is just once instance of an infinite sequence of questions and it makes no sense to answer the problem with continuum hypothesis without having some global solution to the universe of sets. So that became a problem, what could that global solution be? Now as the set theorists have proved that the continuum hypothesis can’t be disproved from the above set of axioms. So, according to them the only option left is to either consider the continuum hypothesis as the new axiom or the concept of infinity will be thought as a fiction.</p>
+
+<p>Well, the key question is whether these conjectures can be proved or not? If they can be proved, we’ll have one new principle which when added to the traditional axioms of the set theory will settle the continuum hypothesis true. It will also resolve all instances of the questions which the Cohen’s method today has been used to show are unsolvable. One possibility is to refute these conjectures, then it is utter chaos. Many people have said that the fact that the continuum hypothesis could not be solved is an indication of ‘this is all just human imagination gone wild’. On the other hand if the other picture unfolds and we prove these conjectures, maybe we can do it in the next few years, maybe never, who knows. If that happens one day, that will be a remarkable event because set theory doesn’t see it, it’s not like we look for a particle and we find it physically in some region. There is no technology which could determine whether or not this continuum hypothesis is true or false. You don’t find the answers to the continuum hypothesis by some clever proof, somehow there has to be a solution that forms our intuition, there have to be clues, but there is no reason to expect that will happen. It really could just all be fiction. So there’s this thing, and we see beyond it, does it exist? The one key question: if it exists, the continuum hypothesis has an answer and we need to find it or we could go the cynic route and show once and for all that the conception of mathematical infinity is just that a fiction and there is no answer, so those are the two futures.</p>
+
+<p>There is still no evidence on what basis the hypothesis should be kept and on what basis the hypothesis should be rejected. Let’s wait to see what happens next…</p>
+
+<h4 id="references">REFERENCES</h4>
+
+<ol>
+  <li><a href="https://cdn.britannica.com/46/78246-004-10DAA5A8/Zermelo-Fraenkel-axioms.jpg">Zermelo-Fraenkel Axioms</a></li>
+  <li><a href="https://plato.stanford.edu/entries/continuum-hypothesis/">Stanford Encyclopedia of Philosphy</a></li>
+  <li><a href="https://www.britannica.com/science/continuum-hypothesis">Britannica Continuuum Hypothesis</a></li>
+  <li><a href="https://www.ias.edu/ideas/2011/kennedy-continuum-hypothesis">Can the Continuum Hypothesis Be Solved? - By Kennedy</a></li>
+  <li><a href="https://e.math.cornell.edu/people/mann/classes/chicago/CH.pdf">The Continuum Hypothesis: how big is infinity?</a></li>
+  <li><a href="https://mathoverflow.net/questions/23829/solutions-to-the-continuum-hypothesis">Mathoverflow- Solutions to Continuum Hypothesis</a></li>
+  <li><a href="https://ercim-news.ercim.eu/en73/special/the-continuum-hypothesis-a-mystery-of-mathematics">The Continuum Hypothesis: A Mystery of Mathematics?</a></li>
+  <li><a href="https://anthonybonato.com/2018/01/03/the-continuum-hypothesis/">THE INTREPID MATHEMATICIAN</a></li>
+  <li><a href="https://honorscollege.charlotte.edu/sites/honorscollege.charlotte.edu/files/media/Capstone%20-%20Rachel%20Minster%20-%20Layperson%20Summary%20-%20Math%20Example%20%28on%20Capstone%20Project%20Examples%29.pdf">Proving the Continuum Hypothesis Independent of the Axioms of Set Theory</a></li>
+  <li><a href="https://www.cambridge.org/core/books/abs/set-theory-arithmetic-and-foundations-of-mathematics/continuum-hypothesis-the-genericmultiverse-of-sets-and-the-conjecture/2574A30D597A9FD7D8D5002F655C67C4">Article by CambridgeCore</a></li>
+</ol>
+
+
+                <hr style="visibility: hidden;">
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/blog/2022/02/23/train-ride/" data-toggle="tooltip" data-placement="top" title="A train ride and a card trick">
+                        Previous<br>
+                        <span>A train ride and a card trick</span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/blog/2024/08/29/hello-world-2024/" data-toggle="tooltip" data-placement="top" title="Hello World 2024">
+                        Next<br>
+                        <span>Hello World 2024</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <hr style="visibility: hidden;">
+
+                
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                
+
+                
+            </div>  
+
+    <!-- Side Catalog Container -->
+        
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CONTENTS</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+        
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+
+
+<section>
+    
+        <hr class="hidden-sm hidden-xs">
+    
+    <h5><a href="/blog/archive/">FEATURED TAGS</a></h5>
+    <div class="tags">
+        
+        
+        
+        
+        
+        
+                <a data-sort="0009" 
+                    href="/blog/archive/?tag=hello-world"
+                    title="hello-world"
+                    rel="2">hello-world</a>
+        
+                <a data-sort="0005" 
+                    href="/blog/archive/?tag=article"
+                    title="article"
+                    rel="6">article</a>
+        
+                <a data-sort="0005" 
+                    href="/blog/archive/?tag=mathematics-in-focus"
+                    title="mathematics-in-focus"
+                    rel="6">mathematics-in-focus</a>
+        
+                <a data-sort="0008" 
+                    href="/blog/archive/?tag=event-summary"
+                    title="event-summary"
+                    rel="3">event-summary</a>
+        
+                <a data-sort="0008" 
+                    href="/blog/archive/?tag=fundae"
+                    title="fundae"
+                    rel="3">fundae</a>
+    </div>
+</section>
+
+
+                <!-- Friends Blog -->
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+<!-- add support for mathjax by voleking-->
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    SVG: {
+      scale: 90
+    },
+    tex2jax: {
+      inlineMath: [ ['$','$'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG">
+</script>
+
+
+
+
+
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "mathsociitd-blog";
+    var disqus_identifier = "/2022/05/21/continuum-hypothesis";
+    var disqus_url = "http://localhost:4000/2022/05/21/continuum-hypothesis/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'hover',
+          placement: 'right',
+          // icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- SNS Link -->
+                
+
+
+<ul class="list-inline text-center">
+
+
+  
+  <li>
+    <a href="/blog/feed.xml">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/mathsociitd">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.facebook.com/maths.society.iitd">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.instagram.com/mathsociitd/">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+</ul>
+
+                <p class="copyright text-muted">
+                    Copyright &copy; 2024 Mathematics Society, IIT Delhi 
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/blog/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
+<script src="/blog/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/blog/js/blog.min.js "></script>
+
+<!-- Simple Jekyll Search -->
+<script src="/blog/js/simple-jekyll-search.min.js"></script>
+
+<!-- Service Worker -->
+
+<script src="/blog/js/snackbar.js "></script>
+<script src="/blog/js/sw-registration.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+        var d = document, t = 'script',
+            o = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        o.src = u;
+        if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+        s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!--
+     Because of the native support for backtick-style fenced code blocks
+     right within the Markdown is landed in Github Pages,
+     From V1.6, There is no need for Highlight.js and so is dropped officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+
+
+
+
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function () {
+        var $nav = document.querySelector("nav");
+        if ($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+<!-- Side Catalog -->
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        // interop with multilangual 
+        if ('' == 'true') {
+            _containerSelector = 'div.post-container.active'
+        } else {
+            _containerSelector = 'div.post-container'
+        }
+
+        // init
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        // clean
+        $(selector).html('')
+
+        // appending
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    // toggle side catalog
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    /*
+     * Doc: https://github.com/davist11/jQuery-One-Page-Nav
+     */
+    async("/blog/js/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+<!-- Multi-Lingual -->
+
+
+<!-- Simple Jekyll Search -->
+<script>
+    // https://stackoverflow.com/questions/1912501/unescape-html-entities-in-javascript
+    function htmlDecode(input) {
+        var e = document.createElement('textarea');
+        e.innerHTML = input;
+        // handle case of empty input
+        return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
+    }
+
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('search-results'),
+        json: '/blog/search.json',
+        searchResultTemplate: '<div class="post-preview item"><a href="{url}"><h2 class="post-title">{title}</h2><h3 class="post-subtitle">{subtitle}</h3><hr></a></div>',
+        noResultsText: 'No results',
+        limit: 50,
+        fuzzy: false,
+        // a hack to get escaped subtitle unescaped. for some reason, 
+        // post.subtitle w/o escape filter nuke entire search.
+        templateMiddleware: function (prop, value, template) {
+            if (prop === 'subtitle' || prop === 'title') {
+                if (value.indexOf("code")) {
+                    return htmlDecode(value);
+                } else {
+                    return value;
+                }
+            }
+        }
+    });
+
+    $(document).ready(function () {
+        var $searchPage = $('.search-page');
+        var $searchOpen = $('.search-icon');
+        var $searchClose = $('.search-icon-close');
+        var $searchInput = $('#search-input');
+        var $body = $('body');
+
+        $searchOpen.on('click', function (e) {
+            e.preventDefault();
+            $searchPage.toggleClass('search-active');
+            var prevClasses = $body.attr('class') || '';
+            setTimeout(function () {
+                $body.addClass('no-scroll');
+            }, 400)
+
+            if ($searchPage.hasClass('search-active')) {
+                $searchClose.on('click', function (e) {
+                    e.preventDefault();
+                    $searchPage.removeClass('search-active');
+                    $body.attr('class', prevClasses);  // from closure 
+                });
+                $searchInput.focus();
+            }
+        });
+    });
+</script>
+
+
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

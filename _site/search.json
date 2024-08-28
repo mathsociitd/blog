@@ -1,0 +1,91 @@
+[
+  
+    {
+      "title"    : "Hello World 2024",
+      "subtitle" : "Welcome to the first blog in a while",
+      "tags"     : "website-resume, hello-world",
+      "url"      : "/blog/2024/08/29/hello-world-2024/",
+      "date"     : "2024-08-29 20:20:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Continuum Hypothesis",
+      "subtitle" : " A hypothesis about the possible sizes of infinite sets",
+      "tags"     : "article, mathematics-in-focus, continuum hypothesis, cardinality, hilbert's-mathematical-problem",
+      "url"      : "/blog/2022/05/21/continuum-hypothesis/",
+      "date"     : "2022-05-21 18:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "A train ride and a card trick",
+      "subtitle" : "The math behind the 21 card magic trick...",
+      "tags"     : "article, mathematics-in-focus, 21-card-game, modulus-arithmetic, fixed-point-mapping",
+      "url"      : "/blog/2022/02/23/train-ride/",
+      "date"     : "2022-02-23 18:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Four Color Theorem",
+      "subtitle" : "A summary of FOUR COLOR THEOREM .",
+      "tags"     : "article, mathematics-in-focus, four-color-theorem, graphs, computing",
+      "url"      : "/blog/2021/11/08/four-color-theorem/",
+      "date"     : "2021-11-08 17:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "P vs NP !",
+      "subtitle" : "A summary of P vs NP paradox.",
+      "tags"     : "article, mathematics-in-focus, indecipherable, paradox, attempts-in-vain",
+      "url"      : "/blog/2021/10/18/p-vs-np/",
+      "date"     : "2021-10-18 17:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Cyclicity of Fibonacci Numbers",
+      "subtitle" : "I‘d tell you a Fibonacci joke, but it‘s probably as bad as the last two you‘ve heard combined",
+      "tags"     : "article, mathematics-in-focus, fibonacci-numbers, fibonacci-sequences",
+      "url"      : "/blog/2021/04/09/fibonacci/",
+      "date"     : "2021-04-09 16:30:16 +0530"
+    } ,
+  
+    {
+      "title"    : "How to prove irrationality of n&lt;sup&gt;th&lt;/sup&gt; root of any number",
+      "subtitle" : "&lt;b&gt;BONUS&lt;/b&gt; From over-killing with Fermat’s Last Theorem to ending up in bogus proof",
+      "tags"     : "article, mathematics-in-focus, irrationality",
+      "url"      : "/blog/2021/03/14/irrationality-of-nth-roots/",
+      "date"     : "2021-03-14 15:14:16 +0530"
+    } ,
+  
+    {
+      "title"    : "Higher Education ke Fundae",
+      "subtitle" : "A summary of the event &lt;i&gt;Higher Education ke Fundae&lt;/i&gt; which was organized on Dec 06",
+      "tags"     : "event-summary, fundae",
+      "url"      : "/blog/2020/12/26/higher-education-ke-fundae/",
+      "date"     : "2020-12-26 18:50:18 +0530"
+    } ,
+  
+    {
+      "title"    : "Masters ke Fundae",
+      "subtitle" : "A summary of the event &lt;i&gt;Masters ke Fundae&lt;/i&gt; which was organized on Dec 06",
+      "tags"     : "event-summary, fundae",
+      "url"      : "/blog/2020/12/22/masters-ke-fundae/",
+      "date"     : "2020-12-22 23:17:34 +0530"
+    } ,
+  
+    {
+      "title"    : "Intern &amp; SURA ke Fundae",
+      "subtitle" : "A summary of the event &lt;i&gt;Intern &amp; SURA ke Fundae&lt;/i&gt; which was organized on Nov 19",
+      "tags"     : "event-summary, fundae",
+      "url"      : "/blog/2020/11/26/intern-and-sura-ke-fundae/",
+      "date"     : "2020-11-26 20:29:38 +0530"
+    } ,
+  
+    {
+      "title"    : "Hello World!",
+      "subtitle" : "Welcome to the first ever blog on a website dedicated to a society of Mathematics students in a Technology Institute.",
+      "tags"     : "website-launch, hello-world",
+      "url"      : "/blog/2020/11/23/hello-world/",
+      "date"     : "2020-11-23 20:20:00 +0530"
+    } 
+  
+]

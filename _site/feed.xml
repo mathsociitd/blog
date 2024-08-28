@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathematics Society, IIT Delhi</title>
+    <description>Blog for Mathematics Society, IIT Delhi</description>
+    <link>http://localhost:4000/blog/</link>
+    <atom:link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 28 Aug 2024 14:47:47 +0530</pubDate>
+    <lastBuildDate>Wed, 28 Aug 2024 14:47:47 +0530</lastBuildDate>
+    <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>Hello World 2024</title>
+        <summary>Welcome to the first blog in a while</summary>
+        <description>&lt;p&gt;&lt;strong&gt;Welcome to the first blog in two years&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We’re so back! With this post we are reviving the blog section of our website. We have a lot of exciting content planned for the future.
+Stay tuned!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Aug 2024 20:20:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/2024/08/29/hello-world-2024/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2024/08/29/hello-world-2024/</guid>
+        
+        <category>website-resume</category>
+        
+        <category>hello-world</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Continuum Hypothesis</title>
+        <summary> A hypothesis about the possible sizes of infinite sets</summary>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Solved or unsolved? Can you prove it true? No. Can you prove it false? No. But why??&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Doesn’t this excite you to know more? LET’S TALK ABOUT IT!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;INTRODUCTION&lt;/h3&gt;
+
+&lt;p&gt;Before jumping into the details of the hypothesis, let’s give you some idea of the basic terms to understand this. As the continuum hypothesis and set theory are somehow related, we say there are a few kinds of sets, such as finite sets, infinite sets, countable sets, and uncountable sets. Related to these types of sets, the term ‘cardinality’ basically gives the idea of the number of elements in a set, or let’s say the size of a set. For example, the set &lt;center&gt; $$ \{-1,8,6,0\} $$ &lt;/center&gt; has cardinality equals 4, as its number of elements is 4. So, the two sets which are in one to one correspondence with each other are said to have the same cardinality. We represent the cardinality of countably infinite set with $\mathbf{\aleph_0}$ (aleph naught) and We denote the cardinality of set of integers as $|\mathbb{Z}|$. Also, $|\mathbb{Z}| = |\mathbb{N}| = |\mathbb{Q}| = \aleph_0$. Similarly, for the uncountable infinite sets, $\mathbf{\aleph_i}$ , $i=1,2,3\dots $ denotes the cardinality. For example, Set of real numbers is not countable i.e. $|\mathbb{R}| = \aleph_1 $ .The &lt;strong&gt;Continuum Hypothesis&lt;/strong&gt; is from set theory. It says that &lt;strong&gt;there&lt;/strong&gt; &lt;strong&gt;is no set whose cardinality is strictly between that of the integers and the real numbers&lt;/strong&gt;. Mathematically, the Continuum Hypothesis can be stated in the form of the following equation:&lt;/p&gt;
+&lt;center&gt;
+$$
+2^{\aleph_0} = \aleph_1
+$$
+&lt;/center&gt;
+&lt;p&gt;where $\aleph_0$ is the cardinality of an infinite countable set (Ex, set of natural numbers), and the cardinal numbers of larger “well-orderable sets” are $\aleph_1, \aleph_2, \dots, \aleph_{\alpha}, \dots $ are the ordinal numbers. The cardinality of the continuum can be shown to equal $2^{\aleph_0}$; thus, according to the continuum hypothesis, there can’t exist a set of size intermediate between the natural numbers and the continuum. That was a basic introduction to the continuum hypothesis. Now, let’s travel through time researching the continuum hypothesis and let’s see more about it in the motivation ‘section’ below.&lt;/p&gt;
+
+&lt;h3 id=&quot;motivation&quot;&gt;MOTIVATION&lt;/h3&gt;
+
+&lt;p&gt;The Continuum Hypothesis(CH) has been known to us since the birth of set theory. In 1873, a famous mathematician named &lt;strong&gt;Cantor&lt;/strong&gt; was unable to resolve the problem of CH. Let me mention again the statement of continuum hypothesis so that you don’t miss the context. The continuum hypothesis is reduced to the question, &lt;strong&gt;how big is infinity?&lt;/strong&gt; After Cantor’s failed attempt on CH, &lt;strong&gt;Hilbert and Cohen&lt;/strong&gt; took this problem into their hands and they reached to a conclusion that it can’t be resolved through the existing set of axioms of mathematics. They were only able to show that these axioms are not enough to settle CH. In-fact, the CH came out to be independent of these axioms of choices from Zermelo-Frankel set theory (ZFC).&lt;/p&gt;
+
+&lt;p&gt;It was this hypothesis which led Cantor to develop the set theory during the attempt to solve the continuum hypothesis. But why do they say “You can neither prove it wrong nor true”? Does this mean it doesn’t have a solution? There can be a few ideas to understand the scenario. Either the mathematicians don’t have the required principles yet or they are missing the key principles or are there principles to find that will enable them to find whether the continuum hypothesis is &lt;strong&gt;true or false&lt;/strong&gt;? Or maybe, there is this much stronger version of &lt;strong&gt;Cohen’s theorem&lt;/strong&gt;, that shows that there really is no answer. In mathematical terms, the two concepts are there in mind of a mathematician:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The mathematical infinity&lt;/li&gt;
+  &lt;li&gt;The universe of sets&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The fact that it’s all a human creation points the finger of doubt towards this concept of infinity being a fiction. If the Continuum Hypothesis is all &lt;strong&gt;fiction&lt;/strong&gt;, then so is the set theory and the concept of infinity and the other concepts that are derived from it. Then the question pops up into our mind that it could all just be an extrapolation of something which is not true, not being able to answer the continuum hypothesis is a direct challenge to this. That’s not all.&lt;/p&gt;
+
+&lt;p&gt;Past the time of Hilbert and Cohen, the next 30 years were of Gödel’s. Following one line of inquiry or an attempt to find new axioms, he showed there was a kind of ultimate solution along this line and speculated then in a series of articles that the continuum hypothesis was false. In Fact there was exactly one infinity in between the infinity of a counting numbers and infinity of real numbers and in any case he showed that there was an optim seal solution, but then that solution ultimately doesn’t fit into understanding the entire universe of sets, that is the continuum hypothesis is just once instance of an infinite sequence of questions and it makes no sense to answer the problem with continuum hypothesis without having some global solution to the universe of sets. So that became a problem, what could that global solution be? Now as the set theorists have proved that the continuum hypothesis can’t be disproved from the above set of axioms. So, according to them the only option left is to either consider the continuum hypothesis as the new axiom or the concept of infinity will be thought as a fiction.&lt;/p&gt;
+
+&lt;p&gt;Well, the key question is whether these conjectures can be proved or not? If they can be proved, we’ll have one new principle which when added to the traditional axioms of the set theory will settle the continuum hypothesis true. It will also resolve all instances of the questions which the Cohen’s method today has been used to show are unsolvable. One possibility is to refute these conjectures, then it is utter chaos. Many people have said that the fact that the continuum hypothesis could not be solved is an indication of ‘this is all just human imagination gone wild’. On the other hand if the other picture unfolds and we prove these conjectures, maybe we can do it in the next few years, maybe never, who knows. If that happens one day, that will be a remarkable event because set theory doesn’t see it, it’s not like we look for a particle and we find it physically in some region. There is no technology which could determine whether or not this continuum hypothesis is true or false. You don’t find the answers to the continuum hypothesis by some clever proof, somehow there has to be a solution that forms our intuition, there have to be clues, but there is no reason to expect that will happen. It really could just all be fiction. So there’s this thing, and we see beyond it, does it exist? The one key question: if it exists, the continuum hypothesis has an answer and we need to find it or we could go the cynic route and show once and for all that the conception of mathematical infinity is just that a fiction and there is no answer, so those are the two futures.&lt;/p&gt;
+
+&lt;p&gt;There is still no evidence on what basis the hypothesis should be kept and on what basis the hypothesis should be rejected. Let’s wait to see what happens next…&lt;/p&gt;
+
+&lt;h4 id=&quot;references&quot;&gt;REFERENCES&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cdn.britannica.com/46/78246-004-10DAA5A8/Zermelo-Fraenkel-axioms.jpg&quot;&gt;Zermelo-Fraenkel Axioms&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plato.stanford.edu/entries/continuum-hypothesis/&quot;&gt;Stanford Encyclopedia of Philosphy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.britannica.com/science/continuum-hypothesis&quot;&gt;Britannica Continuuum Hypothesis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ias.edu/ideas/2011/kennedy-continuum-hypothesis&quot;&gt;Can the Continuum Hypothesis Be Solved? - By Kennedy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://e.math.cornell.edu/people/mann/classes/chicago/CH.pdf&quot;&gt;The Continuum Hypothesis: how big is infinity?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mathoverflow.net/questions/23829/solutions-to-the-continuum-hypothesis&quot;&gt;Mathoverflow- Solutions to Continuum Hypothesis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ercim-news.ercim.eu/en73/special/the-continuum-hypothesis-a-mystery-of-mathematics&quot;&gt;The Continuum Hypothesis: A Mystery of Mathematics?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://anthonybonato.com/2018/01/03/the-continuum-hypothesis/&quot;&gt;THE INTREPID MATHEMATICIAN&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://honorscollege.charlotte.edu/sites/honorscollege.charlotte.edu/files/media/Capstone%20-%20Rachel%20Minster%20-%20Layperson%20Summary%20-%20Math%20Example%20%28on%20Capstone%20Project%20Examples%29.pdf&quot;&gt;Proving the Continuum Hypothesis Independent of the Axioms of Set Theory&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cambridge.org/core/books/abs/set-theory-arithmetic-and-foundations-of-mathematics/continuum-hypothesis-the-genericmultiverse-of-sets-and-the-conjecture/2574A30D597A9FD7D8D5002F655C67C4&quot;&gt;Article by CambridgeCore&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sat, 21 May 2022 18:00:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/2022/05/21/continuum-hypothesis/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2022/05/21/continuum-hypothesis/</guid>
+        
+        <category>article</category>
+        
+        <category>mathematics-in-focus</category>
+        
+        <category>continuum hypothesis</category>
+        
+        <category>cardinality</category>
+        
+        <category>hilbert&apos;s-mathematical-problem</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>A train ride and a card trick</title>
+        <summary>The math behind the 21 card magic trick...</summary>
+        <description>&lt;center&gt;
+&lt;div&gt;
+  &lt;img src=&quot;/blog/media/post/2022-02-23-train-ride_img.jpeg&quot; alt=&quot;four&quot; /&gt;
+
+  &lt;p style=&quot;color:#D3D3D3;font-size:12px;&quot;&gt;Image taken from &lt;a href=&quot;https://mathsmartinthomas.wordpress.com/&quot;&gt;here&lt;/a&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+
+&lt;p&gt;Rajdhani Express ~2012. I was going from Hyderabad to New Delhi, returning from my hometown. I didn’t have a smartphone back then (I was ten, and it was 2012, of course I didn’t). No Netflix to watch, no songs to listen to, no one my age to talk to; it was as boring as a train ride could get. It wasn’t a jam-packed train, off-season, so that would make sense. I expected that nothing interesting would happen, and we would get off at Delhi and head home. But one thing happened on the train that day; some might say that it wasn’t interesting at all, but I’ll tell the story anyway because I am supposed to write a blog and because you still haven’t stopped reading.&lt;/p&gt;
+
+&lt;p&gt;So, my dad started talking to this uncle about politics (obviously), and I was listening, pretending I understood anything they were talking about. Manmohan Singh’s international relations didn’t pique my 10-year-old interests, and I don’t think you can blame me for that. Five minutes go by, 10 minutes go by, an hour goes by. Seeing how disinterested I looked, this uncle pulls out a deck of cards from his pocket and says I’ll show you a magic trick. I couldn’t say no to a magic trick, and realizing it would be more fun than Delhi’s politics, I said yes.&lt;/p&gt;
+
+&lt;p&gt;He now counts 21 cards from the deck, puts away the rest, spreads them on the table, and asks me to choose one of them and not tell him which one it is. He then gives me the set of cards and asks me to shuffle it. He then takes the pack and deals them out in three columns of 7 cards. He asks me which column my card is in, left, middle or right, and then collects the cards. He does this again. Deals the cards out in three columns of 7, asks me again which column my card is in, and collects the cards. He does this one more time.&lt;/p&gt;
+
+&lt;p&gt;Now he started dealing the cards one by one. “One,” “Two,” “Three”… and when he deals the 11th card and says, “Is this the one you chose?” and it was. He seemed confident that he could tell what card I chose, so I thought he must have somehow fooled me. A card under his sleeve, maybe he fabricated the deck.&lt;/p&gt;
+
+&lt;p&gt;I asked him the trick. He gladly showed how he did it. He said that the trick was that whenever I told him which column my card was in, he put that column in between the other two, and then after doing that three times, the chosen card would always end up in the middle of the deck, which, for a 21 card deck would mean the 11th card.
+I randomly stumbled upon this trick again a few months ago and tried to work out how it works. My immediate hunch was modular arithmetic and fixed points in a mapping, and it would turn out to be correct.
+Enough of the story. I’ll explain the trick and why it works.&lt;/p&gt;
+
+&lt;p&gt;We have 21 distinct cards to start with. Let’s say the volunteer chooses the $3^{\text{rd}}$ card.&lt;/p&gt;
+
+&lt;p&gt;You now place the cards row by row, so 1 goes in the first column, 2 goes in the second, 3 in the third and so on. Every element in a column has the same value $\text{mod}\ 3$.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;1&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;2&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;7&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;11&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;13&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;14&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;15&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;16&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;17&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;19&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;20&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;21&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Now, since $3$ is in the third column we place this column between the other two. So, now our new order of cards is,&lt;/p&gt;
+&lt;center&gt;
+$
+2, 5, 8, 11, 14, 17, 20, 3, 6, 9, 12, 15, 18, 21, 1, 4, 7, 10, 13, 16, 19
+$
+&lt;/center&gt;
+&lt;p&gt;Notice that $3$ is now in the eighth position. We do this again.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;2&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;5&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;8&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;11&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;14&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;17&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;20&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;9&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;12&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;15&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;21&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;7&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;13&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;16&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;19&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This time $3$ is in the middle column, we place this column between the other two. After doing this process twice our new order of cards is,&lt;/p&gt;
+&lt;center&gt;
+$
+2, 11, 20, 9, 18, 4, 13, 5, 14, 3, 12, 21, 7, 16, 8, 17, 6, 15, 1, 10, 19
+$
+&lt;/center&gt;
+&lt;p&gt;We do this one final time,&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;2&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;11&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;20&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;9&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;13&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;14&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;12&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;21&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;7&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;16&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;17&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;15&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;19&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This time $3$ is in the first column, we place this column between the other two. Now the order is,&lt;/p&gt;
+&lt;center&gt;
+$
+11, 18, 5, 12, 16, 6, 10, 2, 9, 13, 3, 7, 17, 1, 20, 4, 14, 21, 8, 15, 19
+$
+&lt;/center&gt;
+&lt;p&gt;$3$ is now in the $11\text{th}$ position as the ‘magic trick’ said it would be.&lt;/p&gt;
+
+&lt;p&gt;Why? Why does this work?&lt;/p&gt;
+
+&lt;p&gt;Consider the first iteration. In whichever column or row the selected card is in, after we place that column in the middle of the other two the only possible positions that the card can occupy are $8 - 14$.&lt;/p&gt;
+
+&lt;p&gt;When we do this again, the cards in the $8-14$ position occupy the positions from 3rd row, 2nd column to 5th row, 2nd column. Now, if the card is in the first column, it will go to the $7+4 = 11$ or $7+5 = 12$ th positions in the deck. If the card is in the second column, it will go to $7+3 =10$ or $7+4=11$ or $7+5 = 12$ th positions in the deck. Similarly for the third column the card will go to either the $10$ th or the $11$ th position.&lt;/p&gt;
+
+&lt;p&gt;After doing the process twice me have managed to restrict the card to 10th-11th-12th positions.&lt;/p&gt;
+
+&lt;p&gt;Spreading the cards again, we’ll now realise the the 10th, 11th and 12th cards all lie in the 4th row. So when you collect the cards this time the selected card is bound to be in the $7+4$ that is the $11$ th position.&lt;/p&gt;
+
+&lt;p&gt;That’s a lot of words. Let’s write some mathematical expressions. Let $f(k)$ be the position where the $k$ th card goes after doing this process once.&lt;/p&gt;
+
+&lt;p&gt;Then it is easy to see that,
+$
+f(k) = 7 + \left\lceil\dfrac{k}{3}\right\rceil \quad k \in {1,2,3, \ldots, 21}
+$
+Let $n$ be the number of iterations of the process required to attain a fixed point $k_0$. Then observe that,
+\(\begin{align*}
+f(k) &amp;amp;= \left\lceil\dfrac{k+21}{3}\right\rceil \\
+f(f(k)) &amp;amp; = 7 + \left\lceil\dfrac{\left\lceil\dfrac{k+21}{3}\right\rceil }{3}\right\rceil 
+ = 7 + \left\lceil\dfrac{k+21}{9}\right\rceil \\ 
+&amp;amp; = 7 + \left\lceil 2 + \dfrac{k+3}{9}\right\rceil
+= 9 + \left\lceil\dfrac{k+3}{9}\right\rceil \\
+f(f(f(k))) &amp;amp;= 9 + \left\lceil\dfrac{\left\lceil\dfrac{k+21}{3}\right\rceil+3}{9}\right\rceil
+= 9 + \left\lceil\dfrac{\left\lceil\dfrac{k+30}{3}\right\rceil}{9}\right\rceil \\
+&amp;amp;= 9 + \left\lceil\dfrac{k+30}{27}\right\rceil = 10 + \left\lceil\dfrac{k+3}{27}\right\rceil \\ 
+&amp;amp; = 10 + 1 = 11 \quad \quad \left\{\frac{4}{27} \leq \dfrac{k+3}{27} \leq \frac{24}{27} \implies \left\lceil\dfrac{k+3}{27} \right\rceil = 1\right\}
+\end{align*}\)
+We get a fixed point. Any further application of the mapping will have no effect since $11$ maps to itself.&lt;/p&gt;
+
+&lt;p&gt;A problem for the reader, can you find the fixed point and the number of iterations required for the case of $n_0\times3$ distinct cards? Additionally, can you prove  $\left\lceil\dfrac{\lceil m \rceil}{n}\right\rceil = \left\lceil\dfrac{m}{n}\right\rceil$?&lt;/p&gt;
+</description>
+        <pubDate>Wed, 23 Feb 2022 18:00:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/2022/02/23/train-ride/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2022/02/23/train-ride/</guid>
+        
+        <category>article</category>
+        
+        <category>mathematics-in-focus</category>
+        
+        <category>21-card-game</category>
+        
+        <category>modulus-arithmetic</category>
+        
+        <category>fixed-point-mapping</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Four Color Theorem</title>
+        <summary>A summary of FOUR COLOR THEOREM .</summary>
+        <description>&lt;div&gt;
+  &lt;img src=&quot;/blog/media/post/2021-11-08-four-color-theorem_img2.PNG&quot; alt=&quot;four&quot; /&gt;
+  &lt;h1 style=&quot;margin-top: -20px&quot;&gt; COLOR THEOREM &lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;&lt;strong&gt;INTRODUCTION&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Hello everyone, here we are going to talk about the famous mathematical theorem, FOUR COLOR THEOREM.&lt;/p&gt;
+
+&lt;p&gt;The four-color theorem is an outstanding example of how old ideas combine with new discoveries and techniques in different fields of mathematics to provide new approaches to a problem. It is also an example of how an apparently simple problem was through to be solved but then become more complex and it is the first spectacular example where a computer was involved in proving a mathematical theorem.&lt;/p&gt;
+
+&lt;div style=&quot;line-height:10px&quot;&gt;
+&lt;img align=&quot;center&quot; src=&quot;/blog/media/post/2021-11-08-four-color-theorem_img1.PNG&quot; alt=&quot;nothing&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The four-color theorem which is also called the FOUR-COLOR MAP THEOREM AND GUTHRIE’S PROBLEM after F. GUTHRIE, who first conjectured the theorem in 1852  So, the theorem originally posed in 1852 and not solved until 1976.&lt;/p&gt;
+
+&lt;h2 id=&quot;motivation&quot;&gt;&lt;strong&gt;MOTIVATION&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;The four-color theorem is easy to understand by its statement but the proof of this theorem is so complicated. The theorem states, “any map in a plane can be colored using four colors in such a way that region sharing a common boundary other than a single part do not share the same color.”&lt;/p&gt;
+
+&lt;p&gt;The theorem was conjectured in 1852 when the mathematician Guthrie was coloring the maps of countries of England and then he noticed that he only needed to use four colors so that no two touching countries with the same color, he also wondered whether this was the case with all maps. And if so then what was the reason? After it he told his brother Frederick (also a mathematician) about this four-color problem and if so, WHY? But he didn’t think that his question would go unanswered for a hundred years and proved in 1976 by WOLFGANG HAKEN and KENNETH APPEL at the university of Illinois but the only problem was no one could understand it. This is why because they proved it with the aid of a computer program, they reduced the problems to a number of specific cases and wrote a computer program to each case.&lt;/p&gt;
+
+&lt;p&gt;But first, to understand the proof of this theorem, we have to look out the proof of an easier problem, THE FIVE COLOR THEOREM. And the interesting thing is, it’s pretty much exactly the same as four color theorems just with five colors.&lt;/p&gt;
+
+&lt;p&gt;Basically, it states, “any map in a plane can be colored using no more than five colors in such a way that no two adjacent regions receive the same color”.&lt;/p&gt;
+
+&lt;p&gt;Now, in mathematics, we have three techniques to prove a theorem are induction, invariance and contradiction. But this proof involves all three, it’s exciting so let’s see.&lt;/p&gt;
+
+&lt;p&gt;By induction: so first, the graph with one vertex can be colored using no more than five colors and it is easy to see. Now we will prove that whatever rung we are on, we can always get to the next one. Here that would be assuming that a graph with $n$ vertices is five colorable, prove that a graph with $n + 1$ vertices is still five colorable. So, let’s assume a graph of $n + 1$ vertices, if we remove a vertex, it becomes a graph with $n$ vertices. And we assumed that graphs with $n$ vertices can be colored with just five colors. So, now let’s see if we can call this graph in such a way that when we add the vertex back, it’s still five colorable. Then we’ll have proven that if a graph with $n$ vertices is five colorable, we can always make the jump to $n + 1$. But how can we make sure that we can add a fifth color? It would be good if we could find a vertex with four neighbors then we would be guaranteed to have a fifth color free. Unfortunately, some graphs have a vertex with just four neighbors but we are going to show in a bit that all graphs have a vertex with five neighbors and that’s will be enough.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;By invariant&lt;/em&gt;: here, let’s take the Euler characteristic. It is a rule for every connected planer graph,&lt;/p&gt;
+
+&lt;p&gt;i.e.                            &lt;center&gt; $ v – e + f = 2 $ &lt;/center&gt;        { where: e = edges, v = vertices and f= faces}&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;By contradiction&lt;/em&gt;: Let’s assume that, in fact every vertex needs to have a minimum of six neighbors and there can’t be any with five or less. There needs to be at least three times the numbers of edges as vertices because every edge is shared between two vertices.&lt;/p&gt;
+
+&lt;p&gt;​                                 &lt;center&gt; $ 3v \leq e $ &lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, we need to prove that this assumption results in a contradiction.&lt;/p&gt;
+
+&lt;p&gt;Since, we know by the Euler’s theorem:&lt;/p&gt;
+
+&lt;p&gt;​                        &lt;center&gt; $ v – e + f = 2  $ &lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;And the all faces must have at least three edges then:&lt;/p&gt;
+
+&lt;p&gt;​                         &lt;center&gt; $      f \leq  2/3e    $ &lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;now, we get:&lt;/p&gt;
+
+&lt;p&gt;​                        &lt;center&gt; $ v – e + 2/3e \geq 2 $ &lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;​                        &lt;center&gt; $    v – 1/3e \geq 2 $ &lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;​                        &lt;center&gt; $      e \leq 3v – 6 $ &lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;i.e.                 &lt;center&gt; $ -6 \geq e – 3v $ &lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Thus, we get this contradiction that:&lt;/p&gt;
+
+&lt;p&gt;​                      &lt;center&gt; $  -6 \geq e – 3v \geq  0 $ &lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;So, our assumption that the minimum no. of neighbors is $6$, is wrong and thus, we get that the vertex with the minimum no. of neighbors is five or less.&lt;/p&gt;
+
+&lt;p&gt;After this, we will use here the above proof by induction which is if a graph with $n$ no. of vertices is five colorable, a graph of $n + 1$ vertices is also five colorable. However, this is only possible if there is always at least one vertex with five neighbors or less. And we have proved here by assuming that the opposite was true and showing that it contradicts with the Euler’s characteristics. Hence, the five-color theorem is proved.&lt;/p&gt;
+
+&lt;p&gt;Now, come back into the proof of four-color theorem, the proof of this theorem was $60$ pages long but basically, we imagine that graphs are separated into two categories, first, that can be covered with four colors on less and second, that need five colors.&lt;/p&gt;
+
+&lt;p&gt;We already showed that all maps need a minimum of five colors. And maybe there are some maps which can be colored with just four colors.&lt;/p&gt;
+
+&lt;p&gt;So, what Appel and Haken needed to do was show that all graphs exist in the above first category and they did this by proof of contradiction.&lt;/p&gt;
+
+&lt;p&gt;Here, they used a property that all graphs have a certain property guaranteeing that we can reduce them in size. Basically, it means, if they start with five colors, we can always make the number of vertices smaller while still needing five colors. But of course, if we keep making the graph smaller, we’ll eventually end up with a graph with four or less vertices and therefore four colorable.&lt;/p&gt;
+
+&lt;p&gt;So, that means that if all these graphs did in fact have this special property of reducibility, they would all have to started with first category of graphs. The hard part was proving that old graphs on the five-color side, do indeed have this special property. The strategy that they used was to share that every graph of second category would have to contain one of $2000$ configurations, guaranteeing the property. Checking them by hand would have been very time consuming. They needed a computer to do it and after over a thousand hours of computation, finally they had their answer that is YES.., no more than four colors are required to color the regions of any map so that no two adjacent regions have the same color.&lt;/p&gt;
+
+&lt;p&gt;Hence, the four-color theorem is proved.&lt;/p&gt;
+
+&lt;h3 id=&quot;remarks&quot;&gt;Remarks&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The proof of the four-color theorem is much difficult than five color theorem, and six color theorems as we can see above.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The mathematics community had a lot of trouble accepting this as a proof. Because it is not easy to proof without computer. But since than many more mathematical proofs have been provided by computers, for example the proof of Boolean Pythagorean triples problem.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/16sPURpm-9QwEro8VmL27MOYzvzPsSMlu/view&quot;&gt;EVERY PLANER MAP IS FOUR COLORABLE; PART II: REDUCIBILITY, By K. Appel, W. Haken, and J. Koch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/16q6Q25OS_nb-Q1L8W2i4vJnz4a9ZvAZ2/view&quot;&gt;THE FIVE-COLOR THEOREM written by Moti Ben-Ari.&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Mon, 08 Nov 2021 17:00:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/2021/11/08/four-color-theorem/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/11/08/four-color-theorem/</guid>
+        
+        <category>article</category>
+        
+        <category>mathematics-in-focus</category>
+        
+        <category>four-color-theorem</category>
+        
+        <category>graphs</category>
+        
+        <category>computing</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>P vs NP !</title>
+        <summary>A summary of P vs NP paradox.</summary>
+        <description>&lt;blockquote&gt;
+  &lt;h3 id=&quot;does-p-equals-np-after-how-humans-evolved-this-is-the-biggest-ques-darwin-of-which-is-yet-to-be-discovered&quot;&gt;&lt;em&gt;Does P equals NP? after “how humans evolved”, this is the biggest ques, Darwin of which is yet to be discovered.&lt;/em&gt;&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Welcome. Take a seat. We have been awaiting your arrival for quite a long time. We are presenting you with an opportunity of a lifetime, an option that may completely change your life. Not only are we tempting your inner avarice by providing you with a chance to win a million dollars from the Clay Mathematics Institute, but also letting you know that if you solve this problem:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Cancer diseases will be gone forever.&lt;/li&gt;
+    &lt;li&gt;Databases, scheduling, transportation systems will work at &amp;gt;never before achievable speeds.&lt;/li&gt;
+    &lt;li&gt;The biggest bait of all is that you can crack 10700 levels of Candy Crush with ease and can become the &lt;strong&gt;Universe boss&lt;/strong&gt;.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This doesn’t end here; there are more spellbinding tasks that can bring an updated version of Earth. I am incredibly sorry if your business entirely depends on crypto-related algorithms as, if somehow someone someday shows P=NP, then the whole subject of cryptography has to be altered. Though we may have to dig for new privacy-keeping algorithms, I think it would still be worth it if P=NP.&lt;/p&gt;
+
+&lt;p&gt;Let’s dig a bit deeper into this. P is a class of problems that the human race has solved quickly and efficiently; by being “efficient”, I mean algorithms of these problems can be computed in polynomial time. ‘Polynomial time’ implies that the relation between time taken by computer and input size is a polynomial(also note P for &lt;em&gt;polynomial&lt;/em&gt;). There’s another class of problems, known as NP, solutions of which humans can verify “efficiently” but can’t devise quick methods to solve. That is time that existing algorithms take eventually break the patience of not only humans but also of the Universe. That is, the time required by some of these algorithms is estimated to be more than the life of the Universe. For instance, say Sudoku, we can easily and quickly verify if all the rules hold in a given Sudoku puzzle but apparently, we can’t propose an algorithm that can solve any random puzzle in seconds.&lt;/p&gt;
+
+&lt;p&gt;Originally, NP was thought of as a much more extensive class of problems but was later divided into two subclasses. One of them consists of problems that some enthusiastic geeks, like our blog readers, get motivated and solved efficiently. While the bigger fish is NP-Complete problems that were initialized half a century ago by Stephen Cook, no one is yet able to find an efficient solution of the same. Even if one problem gets solved in polynomial time among these NP-Complete(also known as co-NP) problems, it can be said NP=P. Also, please do note, we are sure that P is contained in NP, as problems getting solved in polynomial time(P problems) also indicate that their solutions can be verified in polynomial time(NP problems). Broadly speaking, we have four options available to consider:
+ &lt;img src=&quot;/blog/media/post/2021-10-18-p-vs-np_img1.png&quot; alt=&quot;nothing&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bitterly saying, most theoretical Computer Scientists believe that NP doesn’t equal P. Delightfully typing, they haven’t got proof of this statement.
+ Let’s look into some of the best attempts to prove P$\ne$NP of history.&lt;/p&gt;
+&lt;h5 id=&quot;razborovs-almost-robust-attempt&quot;&gt;Razborov’s “almost” Robust attempt&lt;/h5&gt;
+&lt;p&gt;It has been proved that small circuits cannot solve the parity function if the circuits have a fixed number of layers of gates. Razborov showed the NP-complete problem of finding a large clique that does not have small circuits if one only allows AND and OR gates (no NOT gates). If one extends Razborov’s result to general circuits, one would have proved P doesn’t equal NP, however later, Roborov himself disagreed with previous results if NOT gate is also considered.&lt;/p&gt;
+
+&lt;h5 id=&quot;daring-diagonalisation&quot;&gt;Daring Diagonalisation&lt;/h5&gt;
+
+&lt;p&gt;This famous technique in mathematics was first used by Cantor to prove real numbers are uncountable. In his seminal paper on computation, Turing used a similar technique to show that the Halting problem is not computable. Therefore, theoretical experts tried this approach in an attempt to separate NP from P; some of them even got some fruitful results but weren’t able to satisfactorily prove P doesn’t equal NP.&lt;/p&gt;
+
+&lt;p&gt;Are you ready to undertake the challenge of delving further into this predicament? Check out &lt;a href=&quot;https://arxiv.org/ftp/arxiv/papers/1911/1911.00722.pdf&quot;&gt; Razborov’s attempt in more detail&lt;/a&gt;, and check out a &lt;a href=&quot;http://courses.csail.mit.edu/6.841/spring09/scribe/lect02.pdf&quot;&gt; deeper description of diagonalization&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;[Image taken from &lt;a href=&quot;http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/chap36.htm&quot;&gt;http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/chap36.htm&lt;/a&gt;]&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Oct 2021 17:00:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/2021/10/18/p-vs-np/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/10/18/p-vs-np/</guid>
+        
+        <category>article</category>
+        
+        <category>mathematics-in-focus</category>
+        
+        <category>indecipherable</category>
+        
+        <category>paradox</category>
+        
+        <category>attempts-in-vain</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Cyclicity of Fibonacci Numbers</title>
+        <summary>I‘d tell you a Fibonacci joke, but it‘s probably as bad as the last two you‘ve heard combined</summary>
+        <description>&lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt;
+&lt;source src=&quot;/blog/media/post/2021-04-09-fibonacci-promo.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In this article we are going to talk about an interesting cyclic phenomena of the &lt;strong&gt;Fibonacci Numbers&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;First of all for dummies let us recall Fibonacci Numbers :
+&lt;br /&gt;The Fibonacci numbers are the numbers in the integer sequence: &lt;em&gt;1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, …&lt;/em&gt; defined by the recurrence relation&lt;/p&gt;
+&lt;center&gt;
+&lt;em&gt;F&lt;sub&gt;1&lt;/sub&gt;&lt;/em&gt; = 1 &lt;br /&gt;
+&lt;em&gt;F&lt;sub&gt;2&lt;/sub&gt;&lt;/em&gt; = 1 &lt;br /&gt;
+&lt;em&gt;F&lt;sub&gt;i&lt;/sub&gt;&lt;/em&gt; = &lt;em&gt;F&lt;sub&gt;i-1&lt;/sub&gt;&lt;/em&gt; + &lt;em&gt;F&lt;sub&gt;i-2&lt;/sub&gt;&lt;/em&gt;
+&lt;/center&gt;
+
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Now if we try to observe the parity of the numbers in the Fibonacci sequence
+we get &lt;em&gt;odd(1), odd(1), even(2), odd(3), odd(5), even(8), · · ·&lt;/em&gt;
+&lt;br /&gt;
+We observe that the &lt;em&gt;cyclic pattern of odd-odd-even&lt;/em&gt; is popping up in the sequence and with simple reasoning it can be shown that this cyclic pattern will always continue.&lt;/p&gt;
+
+&lt;p&gt;Now let us try to change the perspective and denote the terms having odd parity by 1 and even parity by 0. So our modified sequences becomes 1, 1, 0, 1, 1, 0, 1, 1, 0, · · ·&lt;/p&gt;
+
+&lt;p&gt;And we try to ask ourselves a question ”&lt;strong&gt;Can we apply some operation on the Fibonacci Sequence and get this modified version?&lt;/strong&gt;”. After a bit of thought we realize that we can get it by noting down the remainder we get by dividing
+the original terms by 2. More technically we call it modulo 2 of the number.&lt;/p&gt;
+
+&lt;p&gt;Now we have seen we get this periodic sequence out of Fibonacci Sequence by dividing by 2 and noting the remainders. We now can be a bit curious and try to divide by 3 and note the remainders. So after doing that we will again 1 get the cyclic pattern and it is 1−1−2−0−2−2−1−0 (check it by yourself!).&lt;/p&gt;
+
+&lt;p&gt;But we can divide by any natural number ’n’ and note down the remainders. So finally we can ask ourselves ”&lt;strong&gt;Does this happen in general with any such ’n’&lt;/strong&gt;?
+It turns out we always get a repeating sequence and ”&lt;strong&gt;PIGEONHOLE PRINCIPLE&lt;/strong&gt;” can actually help us to figure out why.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How? Here’s the proof:&lt;/strong&gt; &lt;br /&gt;
+So what we are going to do is to look at the consecutive pair of numbers and
+record their remainders like for instance consider the case of n = 2 &lt;br /&gt;
+(1, 1),(1, 2),(2, 3),(3, 5), · · · ⇒ (1, 1),(1, 0),(0, 1),(1, 1), · · · So our pigeons
+are going to be the pairs of consecutive Fibonacci Numbers, &lt;em&gt;i.e.,&lt;/em&gt; &lt;em&gt;(Fn, Fn+1)&lt;/em&gt;.&lt;br /&gt;
+Note that we have infinite pigeons! &lt;br /&gt;
+Our holes are going to be all possible pairs of remainders we can get after dividing by &lt;em&gt;‘n’&lt;/em&gt;
+. We denote the pairs of remainders corresponding to (&lt;em&gt;F&lt;sub&gt;n&lt;/sub&gt; , F&lt;sub&gt;n+1&lt;/sub&gt; &lt;/em&gt;)
+by (&lt;em&gt;R&lt;sub&gt;n&lt;/sub&gt; , R&lt;sub&gt;n+1&lt;/sub&gt; &lt;/em&gt;). &lt;br /&gt;
+Holes −&amp;gt; {(&lt;em&gt;h&lt;/em&gt;, &lt;em&gt;k&lt;/em&gt;) | 0 ≤ &lt;em&gt;h&lt;/em&gt; ≤ &lt;em&gt;n&lt;/em&gt; − 1, 0 ≤ &lt;em&gt;k&lt;/em&gt; ≤ &lt;em&gt;n&lt;/em&gt; − 1}. &lt;br /&gt;
+As there are n possibilities for each of the coordinates, we have total of n&lt;sup&gt;2&lt;/sup&gt; possibilities. So we have n&lt;sup&gt;2&lt;/sup&gt; holes.&lt;/p&gt;
+
+&lt;p&gt;As there are more pigeons than the holes present by Pigeonhole Principle
+we must have 2 different pairs having the same set of remainders.&lt;br /&gt;
+So ∃m, n ∈ N such that (&lt;em&gt;F&lt;sub&gt;n&lt;/sub&gt;&lt;/em&gt;, &lt;em&gt;F&lt;sub&gt;n+1&lt;/sub&gt;&lt;/em&gt;) = (&lt;em&gt;F&lt;sub&gt;m&lt;/sub&gt;&lt;/em&gt;, &lt;em&gt;F&lt;sub&gt;m+1&lt;/sub&gt;&lt;/em&gt;) and &lt;em&gt;m &amp;lt; n&lt;/em&gt; ⇒ &lt;em&gt;R&lt;sub&gt;m&lt;/sub&gt; = R&lt;sub&gt;n&lt;/sub&gt;&lt;/em&gt;
+and &lt;em&gt;R&lt;sub&gt;m+1&lt;/sub&gt; = R&lt;sub&gt;n+1&lt;/sub&gt;&lt;br /&gt;&lt;/em&gt;
+Because any number is the sum of the previous 2 numbers in the sequence. Once
+we know what remainders are for a pair we can actually find the remainder for
+the subsequent number. But as first 2 remainders are same the next one also
+be same.&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;⇒&lt;em&gt;R&lt;sub&gt;m+2&lt;/sub&gt; = R&lt;sub&gt;n+2&lt;/sub&gt;&lt;/em&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;
+But then this implies the very next pairs also repeat, i.e.,
+(&lt;em&gt;F&lt;sub&gt;n+1&lt;/sub&gt;, F&lt;sub&gt;n+2&lt;/sub&gt;&lt;/em&gt;) = (&lt;em&gt;F&lt;sub&gt;m+1&lt;/sub&gt;, F&lt;sub&gt;m+2&lt;/sub&gt;&lt;/em&gt;). Recursively applying this argument our sequence of remainder will become eventually periodic. But note that given Fn
+and &lt;em&gt;F&lt;sub&gt;n+1&lt;/sub&gt;&lt;/em&gt; we can also get &lt;em&gt;F&lt;sub&gt;n-1&lt;/sub&gt;&lt;/em&gt;. So by knowing the remainders for a pair we
+can also find the remainder for the previous number.&lt;br /&gt;
+Hence sequences of remainders become periodic.&lt;/p&gt;
+
+&lt;h2 id=&quot;remarks&quot;&gt;Remarks:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;n − m&lt;/em&gt; actually is how far we need to go for repetition. We might go even
+shorter to get repetition.&lt;/li&gt;
+  &lt;li&gt;The period with which the sequence of Fibonacci numbers taken modulo n
+repeats is known as the &lt;em&gt;n&lt;sup&gt;th&lt;/sup&gt;&lt;/em&gt; &lt;strong&gt;Pisano Period&lt;/strong&gt;. Pisano periods are named after
+Leonardo Pisano, better known as Fibonacci.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Fri, 09 Apr 2021 16:30:16 +0530</pubDate>
+        <link>http://localhost:4000/blog/2021/04/09/fibonacci/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/04/09/fibonacci/</guid>
+        
+        <category>article</category>
+        
+        <category>mathematics-in-focus</category>
+        
+        <category>fibonacci-numbers</category>
+        
+        <category>fibonacci-sequences</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>How to prove irrationality of n&lt;sup&gt;th&lt;/sup&gt; root of any number</title>
+        <summary>&lt;b&gt;BONUS&lt;/b&gt; From over-killing with Fermat’s Last Theorem to ending up in bogus proof</summary>
+        <description>&lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt;
+&lt;source src=&quot;/blog/media/post/2021-03-14-irrationality-of-nth-roots-promo.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;An integer is either a perfect square or its square root is irrational. In a more general tone, when you compute the square root of an integer, there are either no figures to the right of the decimal or there are an infinite number of figures to right of the decimal and they don’t repeat.&lt;/p&gt;
+
+&lt;p&gt;Similarly, we can talk about the n&lt;sup&gt;th&lt;/sup&gt; root of an integer and the same argument follows.&lt;/p&gt;
+
+&lt;p&gt;For the sake of convenience, let us evaluate our statement taking ‘$2$’ as our integer, which can then be generalized to any other positive number.&lt;/p&gt;
+
+&lt;h2 id=&quot;prove-that---sqrtn2---is-irrational-for-all---nge-2--n---in---n&quot;&gt;&lt;em&gt;&quot;Prove that  $ \sqrt[n]2 $  is irrational for all  $ n\ge 2 $, n  $ \in $  N&quot;&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;To answer the above problem, let us take the simple case of  $ n=2 $  first. It can be proved that  $ \sqrt 2 $  is irrational, either by contradiction or by unique factorization.&lt;/p&gt;
+
+&lt;h4 id=&quot;proof-by-contradiction&quot;&gt;Proof by contradiction&lt;/h4&gt;
+
+&lt;div style=&quot;background-color:#f1f1f1;margin: 0 3px;padding:6px 10px;&quot;&gt;
+Assume that  $ \sqrt 2 $  is a rational number. So, it can be expressed in the form  $ p/q $  where  $ p, q $  are co-prime integers and  $ q \ne 0 $ . &lt;br /&gt;
+
+So,  $ \sqrt 2 = p/q $   &amp;nbsp; &amp;nbsp;[Here  $ p $  and  $ q $  are coprime numbers and  $ q \ne 0 $ ] &lt;br /&gt;
+
+Solving, we get, &lt;br /&gt;
+
+&lt;center&gt;
+ $ \sqrt 2 = p/q $ &lt;br /&gt;
+&lt;/center&gt;
+
+On squaring both the sides we get, &lt;br /&gt;
+
+&lt;center&gt;
+ $ \Rightarrow 2 = (p/q)^2 $ &lt;br /&gt;
+
+ $ \Rightarrow 2q^2 = p^2 $  &lt;div style=&quot;float:right;margin-right:4px;&quot;&gt;&amp;nbsp; (&lt;a name=&quot;1.1&quot;&gt;1&lt;/a&gt;) &lt;/div&gt;&lt;br /&gt;
+
+ $ p^2/2 = q^2 $  &lt;br /&gt;
+&lt;/center&gt;
+So,  $ 2 $  divides  $ p $  and  $ p $  is a multiple of  $ 2 $ . &lt;br /&gt;
+
+&lt;center&gt;
+ $ \Rightarrow p = 2m  $  &lt;br /&gt;
+
+ $ \Rightarrow p^2 = 4m^2 $  &lt;div style=&quot;float:right;margin-right:4px;&quot;&gt;&amp;nbsp; (&lt;a name=&quot;1.2&quot;&gt;2&lt;/a&gt;) &lt;/div&gt;&lt;br /&gt;
+&lt;/center&gt;
+
+From equations (&lt;a href=&quot;#1.1&quot;&gt;1&lt;/a&gt;) and (&lt;a href=&quot;#1.2&quot;&gt;2&lt;/a&gt;), we get, &lt;br /&gt;
+&lt;center&gt;
+ $ \Rightarrow 2q^2 = 4m^2 $  &lt;br /&gt;
+
+ $ \Rightarrow q^2 = 2m^2 $  &lt;br /&gt;
+
+ $ \Rightarrow q^2 $  is a multiple of  $ 2 $  &lt;br /&gt;
+
+ $ \Rightarrow q $  is a multiple of  $ 2 $  &lt;br /&gt;
+&lt;/center&gt;
+Hence,  $ p,q $  have a common factor  $ 2 $ .  &lt;br /&gt;
+
+
+This contradicts our assumption that they are co-primes. Therefore,  $ p/q $  is not a rational number, &lt;br /&gt;
+
+&lt;b&gt; $ \sqrt 2 $  is an irrational number.&lt;/b&gt;
+
+&lt;/div&gt;
+
+&lt;h4 id=&quot;proof-by-unique-factorization&quot;&gt;Proof by unique factorization&lt;/h4&gt;
+&lt;p&gt;As with the proof by infinite descent, we obtain  $ a^2=2b^2 $ . Being the same quantity, each side has the same prime factorization by the &lt;a href=&quot;https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic&quot;&gt;&lt;em&gt;fundamental theorem of arithmetic&lt;/em&gt;&lt;/a&gt;, and in particular, would have to have the factor  $ 2 $  occur the same number of times. However, the factor  $ 2 $  appears an odd number of times on the right, but an even number of times on the left &lt;em&gt;—a contradiction&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Next, &lt;em&gt;for all  $ n&amp;gt;2 $&lt;/em&gt;, the proof is not so familiar for us.&lt;/p&gt;
+
+&lt;p&gt;We could either use  &lt;em&gt;Euclid&lt;/em&gt;’s  arguments or invoke the  rational root theorem to prove the statement.&lt;/p&gt;
+
+&lt;p&gt;One way to prove it is to use exactly the same idea as for proving the square root of  $ 2 $  is irrational: Suppose  $ \sqrt[n]2 = \frac{p}{q} $ , with  $ p $  and  $ q $  integers, relatively prime. Then  $ p^n=2q^n $ . Now think about the prime factorizations: every prime that divides  $ q $  must divide  $ p $ , but  $ p $  and  $ q $  are relatively prime, so  $ q=1 $ . That means that we must have  $ p^n=2 $  with  $ p $  an integer. That is, the only way for the  $ n^{th} $  root of  $ 2 $  to be a rational is if  $ 2 $  is a  $ n^{th} $  power of an integer, which is not true. So, &lt;b&gt; $ \sqrt[n]2 $  is irrational&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;Alternatively, we can use the &lt;strong&gt;Rational Root Test&lt;/strong&gt;: An  $ n^{th} $  root of  $ 2 $  is a root of the polynomial  $ x^n-2 $ . But a rational root of a polynomial with integer coefficients that is written in lowest term  $ \frac{p}{q} $  must have denominator  $ q $  that divides the leading coefficient and numerator  $ p $  that divides the constant coefficient. So, any rational root of  
+ $ x^n-2 $  must be an integer.&lt;/p&gt;
+
+&lt;p&gt;The above arguments can be extended to any integer  $ k $ . In fact, for every integer  $ k $  and every  $ n&amp;gt;1 $ , the  $ n^{th} $  root of  $ k $  is either an integer or irrational. The only way for the  $ n^{th} $  root of  $ k $  to be a rational is if  $ k $  is an  $ n^{th} $  power of an integer.&lt;/p&gt;
+
+&lt;h2 id=&quot;bonus-section&quot;&gt;Bonus Section&lt;/h2&gt;
+
+&lt;p&gt;So as promised in this section we will see how &lt;strong&gt;Fermat’s Last Theorem (FLT)&lt;/strong&gt; was used to paradoxically prove the irrationality of  $ \sqrt[n]2 $  for  $ n\ge3 $ .&lt;/p&gt;
+
+&lt;p&gt;First of all, let us recall Fermat’s Last Theorem:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In &lt;a href=&quot;https://en.wikipedia.org/wiki/Number_theory&quot;&gt;&lt;em&gt;number theory&lt;/em&gt;&lt;/a&gt;,  &lt;strong&gt;&lt;em&gt;Fermat’s Last Theorem&lt;/em&gt;&lt;/strong&gt; (sometimes called  &lt;em&gt;&lt;strong&gt;Fermat’s conjecture&lt;/strong&gt;&lt;/em&gt;, especially in older texts) states that no three  &lt;a href=&quot;https://en.wikipedia.org/wiki/Integer&quot;&gt;&lt;em&gt;positive integers&lt;/em&gt;&lt;/a&gt;   $ a $ ,  $ b $ , and  $ c $  satisfy the equation   $ a^n + b^n = c^n $   for any integer value of  $ n&amp;gt;2 $ . The cases  $ n = 1 $  and  $ n = 2 $  have been known since antiquity to have infinitely many solutions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div style=&quot;background-color:#f1f1f1;margin: 0 3px;padding:6px 10px;&quot;&gt;
+
+Suppose for sake of contradiction, assume that  $ \sqrt[n]2 $  is not irrational. Then  $ \sqrt[n]2 $  is a rational number. Since  $ \sqrt[n]2 $  is positive by definition, there exists positive integers  $ p $  and  $ q $  (if both were negative, we could multiply both the numerator and denominator by  $ −1 $ ) such that  $ \sqrt[n]2=p/q $ . &lt;br /&gt;
+
+Then we have  $ \big(\frac{p}{q}\big)^n=2 $ . Since  $ q\ne0 $ , this would imply  $ p^n=2q^n $ . Therefore, we have  $ p^n=q^n + q^n $ .&lt;br /&gt;
+
+But, by Fermat&apos;s last theorem, the equation  $ p^n=q^n + q^n $  cannot hold for any positive integers as  $ n&amp;gt;2 $ .&lt;br /&gt;
+
+This is a contradiction. Thus, we cannot have  $ \sqrt[n]2 $  as a rational number if  $ n \in \mathbb{N} (&amp;gt;2) $ . &lt;br /&gt;
+
+Therefore, &lt;b&gt; $ \sqrt[n]2 $  is an irrational number&lt;/b&gt;.
+
+&lt;/div&gt;
+
+&lt;p&gt;Unfortunately, it turns out that this argument is circular as some step of the proof of FLT in turn requires the Euclid’s Style proof that   $ \sqrt[n]2 $  is irrational.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 14 Mar 2021 15:14:16 +0530</pubDate>
+        <link>http://localhost:4000/blog/2021/03/14/irrationality-of-nth-roots/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/03/14/irrationality-of-nth-roots/</guid>
+        
+        <category>article</category>
+        
+        <category>mathematics-in-focus</category>
+        
+        <category>irrationality</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Higher Education ke Fundae</title>
+        <summary>A summary of the event &lt;i&gt;Higher Education ke Fundae&lt;/i&gt; which was organized on Dec 06</summary>
+        <description>&lt;p&gt;Higher Education is sought by a considerable fraction of students, the reason for which is self-apparent. The opportunity to learn and excel in a highly condensed field of interest is not awarded to everyone. Therefore, the process of application should not be taken lightly and must be given required occupation.&lt;/p&gt;
+
+&lt;p&gt;The applicant must have a good level of interest in the field in which he wants to obtain a higher education. This is required when it comes to proving your worth and adequacy of your candidature among thousands of other applicants. This is shown by :- projects done in that field, internships and opting required basic courses on that matter. It hardly matters what your department is, what matters most is the time you have given in building your knowledge on that field.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;From the perspective of major proportion of undergraduates, who want to secure a prestigious job in a highly specific field, it is advisable that they choose an institution that has a well - developed framework in terms of training for that field. It may happen that the institution is not well-known for other fields and thus not be a popular choice among general applicants. Therefore, it is indispensable to be really selective about institution.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There are several online resources and forums where students may refer to get information about potential programs, requirements, potential for career/research after completion, and may get in touch with other applicants or alumni. Examples of such forums include &lt;a href=&quot;https://www.reddit.com/r/gradadmissions/&quot;&gt;r/gradadmissions&lt;/a&gt;, &lt;a href=&quot;https://www.thegradcafe.com&quot;&gt;GradCafe&lt;/a&gt;, and &lt;a href=&quot;https://quantnet.com/&quot;&gt;Quantnet&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some key points to take care are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Time Crunch&lt;/strong&gt; : It is not advisable to procastinate when it comes to apply for higher education. It helps if one has a ample buffer time to go over remaining formalities after submitting SOPs and required documents.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;A Proper SOP&lt;/strong&gt; : A SOP is to make you stand out among the rest of the applicants. Your SOP should make the reader convince of your competence for selection.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Need for experience and LORs&lt;/strong&gt;: It is important to have apt amount of experience in your applied field. This can be done by taking related courses in that field or obtaining internships in that subject which solidifies your background. Moreover, LORs (Letter of Recommendation) from achieved people strongly helps in that direction.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;VISA Process&lt;/strong&gt;: It is advisable to start applying for VISA two-three months before start of the course.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Monetary Aids&lt;/strong&gt; : Based on the candidature of the applicant, many private and government banks provide student loans. There are many ways of being financially stable once the course is joined such as being a Teaching Assistant, Research Assistant or an intern somewhere. Having a longsighted approach really comes in handy when it comes to paying the bills in higher education.&lt;/li&gt;
+  &lt;li&gt;Higher education is undoubtedly more academically challenging as the courses are exhaustive. Simultaneously, there is considerable freedom in choosing courses, therefore, it is advisable to prioritize choice of such courses that are directly linked with your field.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;How grades are translated&lt;/strong&gt;: GPA matters. Some institutions use a certain minimum GPA merely as a eligibility criteria, while some are more “GPA-centric”. Above all, what matters the most is your background in the field for which you have applied. Therefore, even if one has less GPA, but a strong background in the field chosen, his/her application is given due attention.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 26 Dec 2020 18:50:18 +0530</pubDate>
+        <link>http://localhost:4000/blog/2020/12/26/higher-education-ke-fundae/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/12/26/higher-education-ke-fundae/</guid>
+        
+        <category>event-summary</category>
+        
+        <category>fundae</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Masters ke Fundae</title>
+        <summary>A summary of the event &lt;i&gt;Masters ke Fundae&lt;/i&gt; which was organized on Dec 06</summary>
+        <description>&lt;p&gt;The entire session was broadly divided into three segments with the following panellists:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#phd-and-post-doctoral&quot;&gt;PhD and Post Doctoral&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Dr. Saurabh Verma&lt;/strong&gt; (MSc, PhD - IIT Delhi, Post Doctoral - Nanjing University of Science and Technology, China)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Kshitij Pandey&lt;/strong&gt; (MSc - IIT Jodhpur, PhD - IIT Delhi)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Ritika Singhal&lt;/strong&gt; (MSc, PhD - IIT Delhi)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Lalit Mohan&lt;/strong&gt; (MSc, PhD - IIT Delhi)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Nasheed Jafri&lt;/strong&gt; (MSc - IIT Delhi, PhD - Indiana University, USA)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#internship&quot;&gt;Internship&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Ritesh Raj&lt;/strong&gt; (MSc Mathematics - IIT Delhi)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Ashutosh Mishra&lt;/strong&gt; (MSc Mathematics - IIT Delhi)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#placement&quot;&gt;Placement&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Ashray Aman&lt;/strong&gt; (Placed: Microsoft, B.Tech/M.Tech Mathematics &amp;amp; Computing - IIT Delhi)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Yashank Singh&lt;/strong&gt; (N K Securities, Quants and Data Science Profile)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phd-and-post-doctoral&quot;&gt;PhD and Post Doctoral&lt;/h2&gt;
+
+&lt;h3 id=&quot;phd-in-india&quot;&gt;PhD in India&lt;/h3&gt;
+&lt;p&gt;For a PhD from prestigious Indian Institutes like IITs, IISERs, IISc Bangalore, one needs to qualify the CSIR-NET, JRF, GATE exams, followed by the interviews of the respective colleges. However, some institutes call for a direct interview without checking the NET scores, if the student has a GPA of 8 and above. Following the class notes (provided the topics match from the syllabus of the corresponding entrance examination) one can qualify these exams with very good rank. What is required in addition is to practice some questions based on that.&lt;/p&gt;
+
+&lt;p&gt;There is a Fellowship amount provided by institutes to PhD candidates, after which they can apply for becoming assistant professors in universities. In addition to this, one may also apply for the NBHM and INSPIRE fellowships while continuing their PhD.&lt;/p&gt;
+
+&lt;h3 id=&quot;phd-from-abroad&quot;&gt;PhD from Abroad&lt;/h3&gt;
+&lt;p&gt;Finding a PhD position abroad can be a baffling business and many students don’t know where to begin. In UK, Australia and most European universities, you need to contact a potential supervisor on your own and either join an ongoing project or propose a thesis topic of your own. Securing a funding is particularly difficult in UK and sometimes in Australia as well. Here duration of a PhD degree is usually 3 years and it is purely research based. The application process is similar in the US and in Canada except that in some Canadian universities like University of Toronto, they ask you to submit a research proposal along with your application. However, the procedure as well as securing funding is a lot less hectic as compared to the aforementioned countries. There is a common application pool where you submit your application and you don’t have to run around looking for supervisors. The duration, however, is longer in Canada and US (around 4-6 years).&lt;/p&gt;
+
+&lt;p&gt;You should maintain a GPA of 8.5+, take up summer/reading projects and commit to your Master’s dissertation. You would then need to write a strong statement of purpose (SOP) which is an academic essay that reflects your interest in that university and aspiration to do a doctorate. Your GRE (general) scores are almost just a formality, whereas good GRE (Subject) scores would positively impact your application. Teaching experience has a lot of value because as a PhD student, you’ll be teaching undergrad or grad level courses; so look for TA positions. For this reason, some universities have minimum TOEFL/IELTS score requirements. So you should also work on English speaking and comprehensive skills if you feel the need. Finally, there may be an interview before you get your PhD offer, which is a casual chat with some faculty members.&lt;/p&gt;
+
+&lt;h2 id=&quot;internship&quot;&gt;Internship&lt;/h2&gt;
+&lt;p&gt;Various prestigious institutions in India annually organise such programmes where undergraduate and postgraduate students can apply and enrol as research assistant or fellows. Following is a brief list of some of the popular programmes with their basic details:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Summer Research Fellowship Programme organised in the Chennai Mathematics Institute campus, jointly by INSA, IAS, and NASI. Application starts in November-December and programme is organised in June-July of the following year. The students selected in this are paid fellowship, provided accommodation, and travel allowances. Applicants need to give a statement of purpose and are expected to have a reference from one of their current professors.&lt;/li&gt;
+  &lt;li&gt;Visiting Students’ Research Programme of Tata Institute of Fundamental Research for which the applications are usually taken in December-January. The students selected for this programme are provided a decent stipend, accommodation and travel allowances. Selection heavily relies on applicant’s academic profile, statement of purpose and recommendations.&lt;/li&gt;
+  &lt;li&gt;Summer Research Programme organised by Institute of Mathematical Sciences, this is a limited programme meant only for highly motivated MSc first year students with good academic record. Applicants need to provide at least two recommendation letters and submit a writeup (statement of purpose). The students selected in this are provided free accommodation and travel allowances.&lt;/li&gt;
+  &lt;li&gt;Summer Programme in Mathematics, Harish Chandra Research Institute conducts this programme for 3 weeks in summers. The applications are taken till February where applicants need to submit two recommendation letters. The programme involves intensive lectures on Algebra, Analysis and Topology with an aim to introduce basic maths at masters level in interesting ways.&lt;/li&gt;
+  &lt;li&gt;Summer Student Research Programmes by IISERs at Pune, Mohali, Kolkata and Thiruvananthapuram organise jointly and individually some summer programmes for BSc, MSc, BE, and BTech students to provide them exposure to a research environment, by associating them with one of the Research Groups of IISERs. The applications start in January. Students should visit the site of each of these IISERs to gather application details.&lt;/li&gt;
+  &lt;li&gt;Mathematics Training and Talent Search Programme organised by the MTTS-India Trust, this is one of the most popular mathematics programme for undergraduate and postgraduate students. It’s usually organised throughout the year for a duration of 2-4 weeks in different locations in India. The selection is purely based on applicant’s academic record. While applying, students also need to submit recommendation letter. Those selected for the programme are provided free accommodation.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Students are highly encouraged to apply for the programmes which they find interesting since the experience at these programmes may prove to be pretty significant in their future correspondences with mathematics.&lt;/p&gt;
+
+&lt;h2 id=&quot;placement&quot;&gt;Placement&lt;/h2&gt;
+&lt;p&gt;The students need to set both long term and short-term goals regarding placements. The final draft of CV needs to be submitted 4-5 months prior to interview keeping in mind specific company profiles they are applying to.&lt;/p&gt;
+
+&lt;p&gt;It is recommended to keep multiple CVs ready for different profiles, like projects specific to Data Structure and OS for Software Development Profiles whereas Machine Learning and Artificial Intelligence projects for Data Science Profiles.&lt;/p&gt;
+
+&lt;p&gt;For preparation, one must learn and practice competitive coding questions from platforms like LeetCode and GeeksforGeeks, while look into interview questions from InterviewBit.
+A short Coursera course or watching a couple of introductory videos on Databases, Computer Networks, OS etc. might come in handy.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 22 Dec 2020 23:17:34 +0530</pubDate>
+        <link>http://localhost:4000/blog/2020/12/22/masters-ke-fundae/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/12/22/masters-ke-fundae/</guid>
+        
+        <category>event-summary</category>
+        
+        <category>fundae</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Intern &amp; SURA ke Fundae</title>
+        <summary>A summary of the event &lt;i&gt;Intern &amp; SURA ke Fundae&lt;/i&gt; which was organized on Nov 19</summary>
+        <description>&lt;p&gt;The entire session can be divided into the following categories based on the topics discussed:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#industrial-internship&quot;&gt;Industrial Internship&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#research-internship&quot;&gt;Research Internship&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#foreign-internship&quot;&gt;Foreign Internship&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#sura-internship&quot;&gt;SURA&lt;/a&gt; &lt;em&gt;(IITD version of Research Internship)&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;industrial-internship&quot;&gt;Industrial Internship&lt;/h2&gt;
+
+&lt;p&gt;Industrial Internship can be categorised into two parts as far as the process of getting one is concerned-&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The first one being the OCS (Office of Career Services) powered intern where in students can bag this kind of opportunity through possessing an array of skill sets, most important being Competitive Coding which can be practiced on various platforms like &lt;a href=&quot;https://leetcode.com&quot;&gt;LeetCode&lt;/a&gt;, &lt;a href=&quot;https://www.interviewbit.com&quot;&gt;Interview Bit&lt;/a&gt; and &lt;a href=&quot;https://codeforces.com&quot;&gt;Codeforces&lt;/a&gt;. Another skill that students were advised by the speakers was to practice questions related to &lt;em&gt;Quant &amp;amp; Probability&lt;/em&gt; from authentic books and websites like Wall Street and &lt;a href=&quot;https://brainstellar.com&quot;&gt;Brainstellar&lt;/a&gt;. Students were also asked to have command over some topics of Machine Learning which can come in handy in the exams and interviews also.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The second category being getting industrial internships by applying off-Campus. Following institute policies, i.e., norms laid down by the OCS should be prime priority of students. Getting an Off-Campus intern would require some toil on LinkedIn trying to gather some information and trying to establish personal contact with HRs of the company a student wishes to apply &lt;em&gt;(just to mention some personal contacts can come in handy in this scenario)&lt;/em&gt;. The skill set is more or less same as the Job Descriptions don’t differ much.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;research-internship&quot;&gt;Research Internship&lt;/h2&gt;
+
+&lt;h3 id=&quot;foreign-internship&quot;&gt;Foreign Internship&lt;/h3&gt;
+
+&lt;p&gt;This was one of the most thought on topics in the seminar and seemed to be top notch snatch for attendees. Some key points to take care before starting to address professors are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a list of professors under which you want to do your internship in other words his or her research work amuses you the most.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Draft an email and keep it as personalized as possible to get differentiated from the rest and stand out.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Read the research papers of the particular professor you are interested in and cite theories on them so as to get the attention and excel.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Avoid Mass Mailing to ensure that your mails do not land into spam folders of professors and this point should be much taken care of this time considering the unprecedented and rough time we are dealing with.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Start mailing the professors around Mid November.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sura-internship&quot;&gt;SURA Internship&lt;/h3&gt;
+
+&lt;p&gt;This is the IIT Delhi version of research internship. To bag this golden opportunity and turn this into an advantage students really need to work hard.&lt;/p&gt;
+
+&lt;p&gt;IIT Delhi has a set of very amazing profs, to work under them a candidate needs to have a considerable volume of knowledge. Going about this you need to be well versed with the research papers of the professors.&lt;/p&gt;
+
+&lt;p&gt;Following this to get an opportunity students would have to submit a prototype of the idea they wish to implement using or extrapolating the area of research of the professors.&lt;/p&gt;
+
+&lt;h2 id=&quot;panelists&quot;&gt;Panelists&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/img/post/2020-11-26-intern-and-sura-ke-fundae-panelists.png&quot; alt=&quot;Error Loading Panelists&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 26 Nov 2020 20:29:38 +0530</pubDate>
+        <link>http://localhost:4000/blog/2020/11/26/intern-and-sura-ke-fundae/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/11/26/intern-and-sura-ke-fundae/</guid>
+        
+        <category>event-summary</category>
+        
+        <category>fundae</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
