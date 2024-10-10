@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Inter IIT Tech Meet",
+      "subtitle" : "Explore competitions and get MathSoc&#39;s support for Quant and Math events",
+      "tags"     : "inter-iit, news",
+      "url"      : "/blog/2024/10/10/inter-iit-tech-meet/",
+      "date"     : "2024-10-10 16:20:00 +0530"
+    } ,
+  
+    {
       "title"    : "Hello World 2024",
       "subtitle" : "Welcome to the first blog in a while",
       "tags"     : "website-resume, hello-world",
