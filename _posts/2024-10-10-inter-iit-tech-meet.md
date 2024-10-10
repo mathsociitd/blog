@@ -3,7 +3,7 @@ layout: post
 title: "Inter IIT Tech Meet"
 subtitle: "Explore competitions and get MathSoc's support for Quant and Math events"
 date: 2024-10-10 16:20:00 +0530
-author: "Navneet"
+author: "Sparsh, Pratyush and Navneet"
 header-img: "img/tag-bg.jpg"
 tags: 
     - inter-iit
