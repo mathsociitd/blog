@@ -5,9 +5,107 @@
     <description>Blog for Mathematics Society, IIT Delhi</description>
     <link>http://localhost:4000/blog/</link>
     <atom:link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 28 Aug 2024 14:47:47 +0530</pubDate>
-    <lastBuildDate>Wed, 28 Aug 2024 14:47:47 +0530</lastBuildDate>
+    <pubDate>Thu, 10 Oct 2024 16:17:38 +0530</pubDate>
+    <lastBuildDate>Thu, 10 Oct 2024 16:17:38 +0530</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>Inter IIT Tech Meet</title>
+        <summary>Explore competitions and get MathSoc&apos;s support for Quant and Math events</summary>
+        <description>&lt;h1 id=&quot;iit-delhi-joins-inter-iit-tech-meet-for-the-first-time&quot;&gt;IIT Delhi Joins Inter IIT Tech Meet for the First Time!&lt;/h1&gt;
+
+&lt;p&gt;Exciting news for all tech enthusiasts at IIT Delhi – we’re participating in the &lt;strong&gt;Inter IIT Tech Meet&lt;/strong&gt; for the very first time! This annual meet, which started in 2012 as a humble initiative at IIT Kanpur, has grown into a grand Pan IIT event, now officially recognized by the IIT Council. It brings together 17 IITs and over 500 students in a competitive yet collaborative environment, with the last edition hosted at IIT Madras.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Inter IIT Tech Meet&lt;/strong&gt; is designed to inspire participants to tackle real-world challenges by coming up with innovative technology-driven solutions. It’s not just about competition; it’s about fostering a community of like-minded individuals from across the country. You’ll have the opportunity to collaborate, network, and share knowledge with the best minds from other IITs while pushing the boundaries of technology.&lt;/p&gt;
+
+&lt;p&gt;This meet is a great chance to showcase our talents, solve impactful problems, and possibly transfer these solutions to ventures addressing grassroots challenges. Whether you’re into AI, robotics, or software development, there’s a place for you at the Tech Meet.&lt;/p&gt;
+
+&lt;p&gt;Let’s represent &lt;strong&gt;IIT Delhi&lt;/strong&gt; on this exciting journey and make our first appearance truly remarkable!&lt;/p&gt;
+
+&lt;h2 id=&quot;event-structure&quot;&gt;Event Structure&lt;/h2&gt;
+
+&lt;p&gt;The meet is divided into four categories of competition:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;HP (High Preparation)&lt;/strong&gt;: Time given for problem statement release – 2 months&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MP (Medium Preparation)&lt;/strong&gt;: Time given for problem statement release – 1 month&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;LP (Low Preparation)&lt;/strong&gt;: Time given for problem statement release – 2 weeks&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;NP (No Preparation)&lt;/strong&gt;: Problem statements released on the spot&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are also two other competitions for &lt;strong&gt;Research Papers&lt;/strong&gt; and &lt;strong&gt;Research Projects&lt;/strong&gt;. The team sizes for each category are as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;HP&lt;/strong&gt;: 8 members&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MP&lt;/strong&gt;: 6 members&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;LP&lt;/strong&gt;: 4 members&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;NP&lt;/strong&gt;: 2 members&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;who-should-apply-and-time-commitment&quot;&gt;Who Should Apply and Time Commitment&lt;/h2&gt;
+
+&lt;p&gt;If you’re excited to showcase your skills and represent IIT Delhi, this is your opportunity to make a mark. Join us in addressing real-world challenges at the Inter IIT Tech Meet. Collaborate with peers, push your limits, and aim for victory while contributing to meaningful solutions!&lt;/p&gt;
+
+&lt;h3 id=&quot;high-preparation-hp-category&quot;&gt;High Preparation (HP) Category:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Problem-solving will require sustained efforts of &lt;strong&gt;4-10 weeks&lt;/strong&gt; with a weekly input of &lt;strong&gt;10-30 hours&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;medium-preparation-mp-category&quot;&gt;Medium Preparation (MP) Category:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Problem-solving will require &lt;strong&gt;2-4 weeks&lt;/strong&gt; with a weekly input of &lt;strong&gt;8-20 hours&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;low-preparation-lp-category&quot;&gt;Low Preparation (LP) Category:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;These challenges will require efforts of about &lt;strong&gt;10 days&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sac-and-ec-competitions&quot;&gt;SAC and EC Competitions&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Students’ Academic Conference (SAC)&lt;/strong&gt;: A unique opportunity for undergraduate and postgraduate students to present their research work. If you’re experienced in research, this is for you.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Engineers’ Conclave (EC)&lt;/strong&gt;: A platform for students to showcase ideas addressing critical engineering challenges.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;deadlines&quot;&gt;Deadlines:&lt;/h3&gt;
+&lt;p&gt;The deadline for both &lt;strong&gt;SAC&lt;/strong&gt; and &lt;strong&gt;EC&lt;/strong&gt; is &lt;strong&gt;31 October&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;mathsocs-role&quot;&gt;MathSoc’s Role&lt;/h2&gt;
+
+&lt;p&gt;We from &lt;strong&gt;MathSoc&lt;/strong&gt; will be assisting with &lt;strong&gt;Quant (High Prep)&lt;/strong&gt; and &lt;strong&gt;Maths (Low Prep)&lt;/strong&gt; events. More domains are being introduced over time. Here are a few past-year problem statements for you to explore:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.instagram.com/p/Cn4Y7YgjCv2/&quot;&gt;QuantInsti Price Action Trading&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.instagram.com/p/Cap4lY9MOtq/&quot;&gt;Mudrex Alpha Trading&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.instagram.com/p/CyjIhI_vsHc/&quot;&gt;WorldQuant BRAIN&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://inter-iit.netlify.app/&quot;&gt;MathBowl&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The last link also has other problem statements in detail.&lt;/p&gt;
+
+&lt;h2 id=&quot;stay-updated&quot;&gt;Stay Updated&lt;/h2&gt;
+
+&lt;p&gt;Those interested can stay updated via the official social media accounts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/company/13th-inter-iit-tech-meet&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.instagram.com/interiit_techmeet/&quot;&gt;Instagram&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;event-dates&quot;&gt;Event Dates:&lt;/h3&gt;
+&lt;p&gt;The event will take place from &lt;strong&gt;11 to 14 December&lt;/strong&gt; at &lt;strong&gt;IIT Bombay&lt;/strong&gt;. The travel and stay of the participants will be taken care of by &lt;strong&gt;IIT Delhi&lt;/strong&gt;. Additional details regarding the competition will be made available soon.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 Oct 2024 16:20:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/2024/10/10/inter-iit-tech-meet/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2024/10/10/inter-iit-tech-meet/</guid>
+        
+        <category>inter-iit</category>
+        
+        <category>news</category>
+        
+        
+      </item>
     
       <item>
         <title>Hello World 2024</title>
@@ -812,80 +910,6 @@ A short Coursera course or watching a couple of introductory videos on Databases
         <pubDate>Tue, 22 Dec 2020 23:17:34 +0530</pubDate>
         <link>http://localhost:4000/blog/2020/12/22/masters-ke-fundae/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2020/12/22/masters-ke-fundae/</guid>
-        
-        <category>event-summary</category>
-        
-        <category>fundae</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Intern &amp; SURA ke Fundae</title>
-        <summary>A summary of the event &lt;i&gt;Intern &amp; SURA ke Fundae&lt;/i&gt; which was organized on Nov 19</summary>
-        <description>&lt;p&gt;The entire session can be divided into the following categories based on the topics discussed:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#industrial-internship&quot;&gt;Industrial Internship&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#research-internship&quot;&gt;Research Internship&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#foreign-internship&quot;&gt;Foreign Internship&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#sura-internship&quot;&gt;SURA&lt;/a&gt; &lt;em&gt;(IITD version of Research Internship)&lt;/em&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;industrial-internship&quot;&gt;Industrial Internship&lt;/h2&gt;
-
-&lt;p&gt;Industrial Internship can be categorised into two parts as far as the process of getting one is concerned-&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;The first one being the OCS (Office of Career Services) powered intern where in students can bag this kind of opportunity through possessing an array of skill sets, most important being Competitive Coding which can be practiced on various platforms like &lt;a href=&quot;https://leetcode.com&quot;&gt;LeetCode&lt;/a&gt;, &lt;a href=&quot;https://www.interviewbit.com&quot;&gt;Interview Bit&lt;/a&gt; and &lt;a href=&quot;https://codeforces.com&quot;&gt;Codeforces&lt;/a&gt;. Another skill that students were advised by the speakers was to practice questions related to &lt;em&gt;Quant &amp;amp; Probability&lt;/em&gt; from authentic books and websites like Wall Street and &lt;a href=&quot;https://brainstellar.com&quot;&gt;Brainstellar&lt;/a&gt;. Students were also asked to have command over some topics of Machine Learning which can come in handy in the exams and interviews also.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The second category being getting industrial internships by applying off-Campus. Following institute policies, i.e., norms laid down by the OCS should be prime priority of students. Getting an Off-Campus intern would require some toil on LinkedIn trying to gather some information and trying to establish personal contact with HRs of the company a student wishes to apply &lt;em&gt;(just to mention some personal contacts can come in handy in this scenario)&lt;/em&gt;. The skill set is more or less same as the Job Descriptions don’t differ much.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;research-internship&quot;&gt;Research Internship&lt;/h2&gt;
-
-&lt;h3 id=&quot;foreign-internship&quot;&gt;Foreign Internship&lt;/h3&gt;
-
-&lt;p&gt;This was one of the most thought on topics in the seminar and seemed to be top notch snatch for attendees. Some key points to take care before starting to address professors are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a list of professors under which you want to do your internship in other words his or her research work amuses you the most.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Draft an email and keep it as personalized as possible to get differentiated from the rest and stand out.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Read the research papers of the particular professor you are interested in and cite theories on them so as to get the attention and excel.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Avoid Mass Mailing to ensure that your mails do not land into spam folders of professors and this point should be much taken care of this time considering the unprecedented and rough time we are dealing with.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Start mailing the professors around Mid November.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;sura-internship&quot;&gt;SURA Internship&lt;/h3&gt;
-
-&lt;p&gt;This is the IIT Delhi version of research internship. To bag this golden opportunity and turn this into an advantage students really need to work hard.&lt;/p&gt;
-
-&lt;p&gt;IIT Delhi has a set of very amazing profs, to work under them a candidate needs to have a considerable volume of knowledge. Going about this you need to be well versed with the research papers of the professors.&lt;/p&gt;
-
-&lt;p&gt;Following this to get an opportunity students would have to submit a prototype of the idea they wish to implement using or extrapolating the area of research of the professors.&lt;/p&gt;
-
-&lt;h2 id=&quot;panelists&quot;&gt;Panelists&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/blog/img/post/2020-11-26-intern-and-sura-ke-fundae-panelists.png&quot; alt=&quot;Error Loading Panelists&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 26 Nov 2020 20:29:38 +0530</pubDate>
-        <link>http://localhost:4000/blog/2020/11/26/intern-and-sura-ke-fundae/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2020/11/26/intern-and-sura-ke-fundae/</guid>
         
         <category>event-summary</category>
         
