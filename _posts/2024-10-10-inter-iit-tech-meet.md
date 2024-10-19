@@ -12,7 +12,7 @@ tags:
 ---
 # IIT Delhi Joins Inter IIT Tech Meet for the First Time!
 
-Exciting news for all tech enthusiasts at IIT Delhi – we’re participating in the **Inter IIT Tech Meet** for the very first time! This annual meet, which started in 2012 as a humble initiative at IIT Kanpur, has grown into a grand Pan IIT event, now officially recognized by the IIT Council. It brings together 17 IITs and over 500 students in a competitive yet collaborative environment, with the last edition hosted at IIT Madras.
+Exciting news for all tech enthusiasts at IIT Delhi – we’re participating in the **Inter IIT Tech Meet** for the very first time! This annual meet, which started in 2012 as a humble initiative at IIT Kanpur, has grown into a grand Pan IIT event, now officially recognized by the IIT Council. It brings together 19 IITs and over 1500 students in a competitive yet collaborative environment, with the last edition hosted at IIT Madras.
 
 The **Inter IIT Tech Meet** is designed to inspire participants to tackle real-world challenges by coming up with innovative technology-driven solutions. It’s not just about competition; it’s about fostering a community of like-minded individuals from across the country. You’ll have the opportunity to collaborate, network, and share knowledge with the best minds from other IITs while pushing the boundaries of technology.
 
